@@ -15,7 +15,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
 mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
   $http.get('db/boot3/data.json').success(function(data) {
     $scope.boot3 = data;
-    $scope.itemNum = $routeParams.itemId;   // get the index number of the item
+    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
   });
 
 }]);

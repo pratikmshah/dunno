@@ -1,6 +1,16 @@
 <section>
   <div ng-model="boot3">
-
+    <h1>{{boot3[itemIndx].title}}</h1>
+    <p>{{boot3[itemIndx].desc}}</p>
+    <a href="{{boot3[itemIndx].url}}" target="_blank">Link</a> <br/>
+    <div>
+      <h4>Other resources and subtopics</h4>
+      <ul ng-repeat="(key, value) in boot3[itemIndx].sub">
+        <li>
+          <a href="{{value}}" target="_blank">{{key}}</a>
+        </li>
+      </ul>
+    </div>
   </div>
-  <a href="index.html">span.glyphicon</a>
+  <a href="index.html"><span class="glyphicon glyphicon-arrow-left"></span> Back To Search</a>
 </section>
