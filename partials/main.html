@@ -1,6 +1,15 @@
 <section>
   <div>
     <h1>Dunno?</h1>
-    <input type="text" placeholder="Search..."/>
+    <input type="text" placeholder="Search..." ng-model="query" autofocus>
   </div>
+  <ul ng-show="query">  <!-- only show data if there is a query -->
+    <li ng-repeat="item in boot3 | filter: query">
+      <div>
+        <h3>{{item.title}}</h3>
+        <p>{{item.desc}}</p>
+        <a href="{{item.url}}" target="_blank">Link</a>
+      </div>
+    </li>
+  </ul>
 </section>

@@ -419,10 +419,17 @@
     }
   },
   {
-    "title":"Transitions",
+    "title":"Transitions (JS)",
     "url":"http://getbootstrap.com/javascript/#transitions",
     "desc":"Animate the changes when clicking, collapsing, dragging, scrolling etc...",
     "tags":["responsive", "transitions", "animations", "animate"],
+    "sub": {}
+  },
+  {
+    "title":"Modals",
+    "url":"http://getbootstrap.com/javascript/#modals",
+    "desc":"Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.",
+    "tags":["modals", "modal", "window", "animate"],
     "sub": {
       "Examples":"http://getbootstrap.com/javascript/#modals-examples",
       "Sizes":"http://getbootstrap.com/javascript/#modals-sizes",
