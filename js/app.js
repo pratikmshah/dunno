@@ -1,6 +1,6 @@
 var dunno = angular.module('dunno', [
   'ngRoute',                      // use angular routes
-  'bootstrap3Controllers'         // use bootstrap 3 controllers
+  'mainControllers'         // use bootstrap 3 controllers
 ]);
 
 dunno.config(['$routeProvider', function($routeProvider){

@@ -1,10 +1,4 @@
-/*
-  Bootstrap v3 documentation links and info.
-  Ordered by: Components, CSS, JavaScript
-*/
 [
-  //=============== COMPONENTS
-
   {
     "title":"Glyphicons",
     "url":"http://getbootstrap.com/components/#glyphicons",
@@ -235,9 +229,6 @@
     "tags":["wells", "well"],
     "sub": {}
   },
-
-  //=============== CSS
-
   {
     "title":"CSS Overview",
     "url":"http://getbootstrap.com/css/#overview",
@@ -363,7 +354,7 @@
     "title":"Helper Classes",
     "url":"http://getbootstrap.com/css/#helper-classes",
     "desc":"Set of classes to help support making your webpage more informative and styled",
-    "tags":["helper", "help", "context", "contextual colors", "icon", "caret", "clear", "clearfix", "screen"
+    "tags":["helper", "help", "context", "contextual colors", "icon", "caret", "clear", "clearfix", "screen",
             "screen reader", "readers", "float", "floats", "show", "hide", "keyboard"],
     "sub": {
       "Contextual colors":"http://getbootstrap.com/css/#helper-classes-colors",
@@ -411,9 +402,6 @@
       "Installation":"http://getbootstrap.com/css/#sass-installation"
     }
   },
-
-  //=============== JAVASCRIPT
-
   {
     "title":"JS Overview",
     "url":"http://getbootstrap.com/javascript/#js-overview",
@@ -530,7 +518,7 @@
       "Stateful":"http://getbootstrap.com/javascript/#buttons-stateful",
       "Single toggle":"http://getbootstrap.com/javascript/#buttons-single-toggle",
       "Checkbox/Radio":"http://getbootstrap.com/javascript/#buttons-checkbox-radio",
-      "Methods":"http://getbootstrap.com/javascript/#buttons-methods",
+      "Methods":"http://getbootstrap.com/javascript/#buttons-methods"
     }
   },
   {
