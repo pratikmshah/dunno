@@ -239,10 +239,10 @@
   //=============== CSS
 
   {
-    "title":"Overview",
+    "title":"CSS Overview",
     "url":"http://getbootstrap.com/css/#overview",
     "desc":"Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach to better, faster, stronger web development.",
-    "tags":["bootstrap", "overview", "getting started"],
+    "tags":["bootstrap", "overview", "getting started", "css"],
     "sub": {
       "HTML5 doctype":"http://getbootstrap.com/css/#overview-doctype",
       "Mobile first":"http://getbootstrap.com/css/#overview-mobile",
@@ -411,4 +411,166 @@
       "Installation":"http://getbootstrap.com/css/#sass-installation"
     }
   },
+
+  //=============== JAVASCRIPT
+
+  {
+    "title":"JS Overview",
+    "url":"http://getbootstrap.com/javascript/#js-overview",
+    "desc":"Plugins can be included individually (using Bootstrap's individual *.js files), or all at once (using bootstrap.js or the minified bootstrap.min.js).",
+    "tags":["bootstrap", "overview", "js", "javascript"],
+    "sub": {
+      "Individual or compiled":"http://getbootstrap.com/javascript/#js-individual-compiled",
+      "Data attributes":"http://getbootstrap.com/javascript/#js-data-attrs",
+      "Programmatic API":"http://getbootstrap.com/javascript/#js-programmatic-api",
+      "No conflict":"http://getbootstrap.com/javascript/#js-noconflict",
+      "Events":"http://getbootstrap.com/javascript/#js-events",
+      "Version numbers":"http://getbootstrap.com/javascript/#js-version-nums",
+      "When JavaScript is disabled":"http://getbootstrap.com/javascript/#js-disabled",
+      "Third-party libraries":"http://getbootstrap.com/javascript/#callout-third-party-libs"
+    }
+  },
+  {
+    "title":"Transitions",
+    "url":"http://getbootstrap.com/javascript/#transitions",
+    "desc":"Animate the changes when clicking, collapsing, dragging, scrolling etc...",
+    "tags":["responsive", "transitions", "animations", "animate"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#modals-examples",
+      "Sizes":"http://getbootstrap.com/javascript/#modals-sizes",
+      "Remove animation":"http://getbootstrap.com/javascript/#modals-remove-animation",
+      "Varying content based on trigger button":"http://getbootstrap.com/javascript/#modals-related-target",
+      "Usage":"http://getbootstrap.com/javascript/#modals-usage",
+      "Options":"http://getbootstrap.com/javascript/#modals-options",
+      "Methods":"http://getbootstrap.com/javascript/#modals-methods",
+      "Events":"http://getbootstrap.com/javascript/#modals-events"
+    }
+  },
+  {
+    "title":"Dropdowns (JS)",
+    "url":"http://getbootstrap.com/javascript/#dropdowns",
+    "desc":"Add dropdown menus to nearly anything with this simple plugin, including the navbar, tabs, and pills.",
+    "tags":["dropdown", "dropdowns", "menu", "data", "data-toggle"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#dropdowns-examples",
+      "Usage":"http://getbootstrap.com/javascript/#dropdowns-usage",
+      "Methods":"http://getbootstrap.com/javascript/#dropdowns-methods",
+      "Events":"http://getbootstrap.com/javascript/#dropdowns-events"
+    }
+  },
+  {
+    "title":"Scrollspy",
+    "url":"http://getbootstrap.com/javascript/#scrollspy",
+    "desc":"The ScrollSpy plugin is for automatically updating nav targets based on scroll position. Scroll the area below the navbar and watch the active class change. The dropdown sub items will be highlighted as well.",
+    "tags":["scrollspy", "spy", "data-spy"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#scrollspy-examples",
+      "Usage":"http://getbootstrap.com/javascript/#scrollspy-usage",
+      "Methods":"http://getbootstrap.com/javascript/#scrollspy-methods",
+      "Options":"http://getbootstrap.com/javascript/#scrollspy-options",
+      "Events":"http://getbootstrap.com/javascript/#scrollspy-events"
+    }
+  },
+  {
+    "title":"Tab (JS)",
+    "url":"http://getbootstrap.com/javascript/#tabs",
+    "desc":"Add quick, dynamic tab functionality to transition through panes of local content, even via dropdown menus. Nested tabs are not supported.",
+    "tags":["tab", "responsive"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#tabs-examples",
+      "Usage":"http://getbootstrap.com/javascript/#tabs-usage",
+      "Methods":"http://getbootstrap.com/javascript/#tabs-methods",
+      "Events":"http://getbootstrap.com/javascript/#tabs-events"
+    }
+  },
+  {
+    "title":"Tooltip",
+    "url":"http://getbootstrap.com/javascript/#tooltips",
+    "desc":"Inspired by the excellent jQuery.tipsy plugin written by Jason Frame; Tooltips are an updated version, which don't rely on images, use CSS3 for animations, and data-attributes for local title storage.",
+    "tags":["tooltip", "tool", "data-toggle", "tip"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#tooltips-examples",
+      "Usage":"http://getbootstrap.com/javascript/#tooltips-usage",
+      "Options":"http://getbootstrap.com/javascript/#tooltips-options",
+      "Methods":"http://getbootstrap.com/javascript/#tooltips-methods",
+      "Events":"http://getbootstrap.com/javascript/#tooltips-events"
+    }
+  },
+  {
+    "title":"Popover",
+    "url":"http://getbootstrap.com/javascript/#popovers",
+    "desc":"Add small overlays of content, like those on the iPad, to any element for housing secondary information.",
+    "tags":["popover", "focus", "popovers"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#popovers-examples",
+      "Usage":"http://getbootstrap.com/javascript/#popovers-usage",
+      "Options":"http://getbootstrap.com/javascript/#popovers-options",
+      "Methods":"http://getbootstrap.com/javascript/#popovers-methods",
+      "Events":"http://getbootstrap.com/javascript/#popovers-events"
+    }
+  },
+  {
+    "title":"Alert (JS)",
+    "url":"http://getbootstrap.com/javascript/#alerts",
+    "desc":"Add dismiss functionality to all alert messages with this plugin",
+    "tags":["alert", "alerts", "notify", "notification"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#alerts-examples",
+      "Usage":"http://getbootstrap.com/javascript/#alerts-usage",
+      "Methods":"http://getbootstrap.com/javascript/#alerts-methods",
+      "Events":"http://getbootstrap.com/javascript/#alerts-events"
+    }
+  },
+  {
+    "title":"Button (JS)",
+    "url":"http://getbootstrap.com/javascript/#buttons",
+    "desc":"Do more with buttons. Control button states or create groups of buttons for more components like toolbars.",
+    "tags":["button", "buttons", "responsive button", "link"],
+    "sub": {
+      "Stateful":"http://getbootstrap.com/javascript/#buttons-stateful",
+      "Single toggle":"http://getbootstrap.com/javascript/#buttons-single-toggle",
+      "Checkbox/Radio":"http://getbootstrap.com/javascript/#buttons-checkbox-radio",
+      "Methods":"http://getbootstrap.com/javascript/#buttons-methods",
+    }
+  },
+  {
+    "title":"Collapse",
+    "url":"http://getbootstrap.com/javascript/#collapse",
+    "desc":"Flexible plugin that utilizes a handful of classes for easy toggle behavior.",
+    "tags":["collapse"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#collapse-example",
+      "Accordion example":"http://getbootstrap.com/javascript/#collapse-example-accordion",
+      "Usage":"http://getbootstrap.com/javascript/#collapse-usage",
+      "Options":"http://getbootstrap.com/javascript/#collapse-options",
+      "Methods":"http://getbootstrap.com/javascript/#collapse-methods",
+      "Events":"http://getbootstrap.com/javascript/#collapse-events"
+    }
+  },
+  {
+    "title":"Carousel",
+    "url":"http://getbootstrap.com/javascript/#carousel",
+    "desc":"A slideshow component for cycling through elements, like a carousel. Nested carousels are not supported.",
+    "tags":["carousel", "slideshow", "responsive slides"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#carousel-examples",
+      "Usage":"http://getbootstrap.com/javascript/#carousel-usage",
+      "Options":"http://getbootstrap.com/javascript/#carousel-options",
+      "Methods":"http://getbootstrap.com/javascript/#carousel-methods",
+      "Events":"http://getbootstrap.com/javascript/#carousel-events"
+    }
+  },
+  {
+    "title":"Affix",
+    "url":"http://getbootstrap.com/javascript/#affix",
+    "desc":"The affix plugin toggles position: fixed; on and off, emulating the effect found with position: sticky;. The subnavigation on the right is a live demo of the affix plugin.",
+    "tags":["affix", "position", "positioning"],
+    "sub": {
+      "Examples":"http://getbootstrap.com/javascript/#affix-examples",
+      "Usage":"http://getbootstrap.com/javascript/#affix-usage",
+      "Options":"http://getbootstrap.com/javascript/#affix-options",
+      "Methods":"http://getbootstrap.com/javascript/#affix-methods",
+      "Events":"http://getbootstrap.com/javascript/#affix-events"
+    }
+  }
 ]
