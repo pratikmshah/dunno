@@ -32,3 +32,15 @@
 #results {
   color: #000;
 }
+
+#results p {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+#results h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.result-clr { color: #1A0DAB;}
