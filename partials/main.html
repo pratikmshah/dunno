@@ -1,17 +1,26 @@
-<section>
-  <div>
-    <h1>Dunno?</h1>
-    <input type="text" placeholder="Search..." ng-model="query" autofocus>
+<section id="main" class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <div class="text-center">
+      <h1 id="app-title">
+        <span class="gblue">D</span>
+        <span class="gred">u</span>
+        <span class="gyell">n</span>
+        <span class="gblue">n</span>
+        <span class="ggreen">o</span>
+        <span class="gred">?</span>
+      </h1>
+      <input id="search" type="text" class="form-control" ng-model="query" autofocus>
+    </div>
+    <ul id="results" class="list-unstyled" ng-show="query">  <!-- only show data if there is a query -->
+      <li ng-repeat="item in boot3 | filter: query">
+        <a href="#/boot3/{{boot3.indexOf(item)}}">
+          <div>
+            <h3>{{item.title}}</h3>
+            <p>{{item.desc}}</p>
+            <a href="{{item.url}}" target="_blank">Link</a>
+          </div>
+        </a>
+      </li>
+    </ul>
   </div>
-  <ul ng-show="query">  <!-- only show data if there is a query -->
-    <li ng-repeat="item in boot3 | filter: query">
-      <a href="#/boot3/{{boot3.indexOf(item)}}">
-        <div>
-          <h3>{{item.title}}</h3>
-          <p>{{item.desc}}</p>
-          <a href="{{item.url}}" target="_blank">Link</a>
-        </div>
-      </a>
-    </li>
-  </ul>
 </section>
