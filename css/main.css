@@ -11,6 +11,12 @@
 .ggreen { color: #34A853; }
 
 /*search field*/
+input:focus, textarea {
+  outline: none !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 #search {
   border-radius: 0px;
   border: 1px solid #D3D3D3;
@@ -28,6 +34,12 @@
 
 #search:hover { border: 1px solid #B9B9B9; }
 
+#search-topic {
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 0px;
+}
+
 /* results */
 #results {
   color: #000;
@@ -44,3 +56,17 @@
 }
 
 .result-clr { color: #1A0DAB;}
+
+
+/* MEDIA QUERIES */
+@media  screen and (min-width: 768px) {
+  #search { min-width: 400px; }
+}
+
+@media screen and (max-width: 767px) {
+  #app-title { font-size: 3.5em; }
+}
+
+@media screen and (max-width: 375px) {
+  #app-title { font-size: 2.5em; }
+}

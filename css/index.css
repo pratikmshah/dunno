@@ -1,5 +1,0 @@
-input:focus, textarea {
-  outline: none !important;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
