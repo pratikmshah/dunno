@@ -1,0 +1,9 @@
+#show div.panel-heading h1,h2,h3,h4,h5,h6 { margin-top: 10px; }
+
+.bg-card {
+  background-color: #F1F1F1;
+}
+
+.gblue  { color: #4285F4; }
+.gred   { color: #EA4335; }
+.ggreen { color: #34A853; }
