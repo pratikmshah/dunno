@@ -15,7 +15,7 @@
         <div class="input-group">
           <input id="search" type="text" class="form-control" ng-model="query" autofocus>
           <span id="search-topic" class="input-group-addon">
-            <select name="topic" class="">
+            <select id="selection" ng-change="select()" ng-model="selection" name="topic" class="">
               <option value="boot3">boot3</option>
               <option value="git">git</option>
             </select>

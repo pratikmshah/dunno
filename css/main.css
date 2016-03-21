@@ -60,7 +60,7 @@ input:focus, textarea {
 
 /* MEDIA QUERIES */
 @media  screen and (min-width: 768px) {
-  #search { min-width: 400px; }
+  #search { min-width: 450px; }
 }
 
 @media screen and (max-width: 767px) {
