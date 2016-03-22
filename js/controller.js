@@ -1,7 +1,5 @@
 var mainControllers = angular.module('mainControllers', ['ngAnimate']); // add animation dependency
 
-// NEED TO BREAK UP Bootstrap and main later
-
 // MAIN index page
 mainControllers.controller('MainController', ['$scope', '$http', function($scope, $http) {
 
@@ -11,13 +9,22 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
     $scope.selected = optionVal = $('#selection').val();
 
     if (optionVal === 'boot3') {
-      // bootstrap 3 data
-      $http.get("db/" + optionVal + "/data.json").success(function(data) {
-        $scope.result = data;
-      });
+
+        $http.get("db/" + optionVal + "/data.json").success(function(data) {
+          $scope.result = data;
+        });
+
     } else if (optionVal === 'git') {
-      $scope.result = null;
+
+        $scope.result = null;
+
+    } else if (optionVal === 'cli') {
+
+        $http.get("db/" + optionVal + "/data.json").success(function(data) {
+          $scope.result = data;
+        });
     }
+
   };
 
 }]);
@@ -28,14 +35,23 @@ mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams'
     $scope.result = data;
     $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
   });
+}]);
 
+// Command line show page
+mainControllers.controller('CommandLineController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/cli/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
+  });
 }]);
 
 
 // CONTROLLER TEMPLATE
 
 // } else if (optionVal === '[nameOfValue]') {
-//   $scope.result = data;
+    // $http.get("db/" + optionVal + "/data.json").success(function(data) {
+    //    $scope.result = data;
+    // });
 // }
 
 // [Showpage Name For] show page
@@ -44,3 +60,5 @@ mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams'
 //     $scope.result = data;
 //     $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
 //   });
+
+
