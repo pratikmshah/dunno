@@ -1,16 +1,16 @@
 <section id="show" class="row">
   <div class="col-xs-6 col-xs-offset-3">
-    <div class="panel panel-default" ng-model="boot3">
+    <div class="panel panel-default" ng-model="result">
 
       <div class="panel-heading">
-        <h1 class="text-center gred">{{boot3[itemIndx].title}}</h1>
+        <h1 class="text-center gred">{{result[itemIndx].title}}</h1>
       </div>
 
       <div class="panel-body">
-        <p>{{boot3[itemIndx].desc}}</p>
-        <a href="{{boot3[itemIndx].url}}" class="ggreen" target="_blank">Link</a> <br/>
+        <p>{{result[itemIndx].desc}}</p>
+        <a href="{{result[itemIndx].url}}" class="ggreen" target="_blank">Link</a> <br/>
         <h4>Other resources and subtopics</h4>
-        <ul ng-repeat="(key, value) in boot3[itemIndx].sub">
+        <ul ng-repeat="(key, value) in result[itemIndx].sub">
           <li>
             <a href="{{value}}" class="gblue" target="_blank">{{key}}</a>
           </li>
