@@ -17,3 +17,9 @@ dunno.config(['$routeProvider', function($routeProvider){
     redirectTo: '/main'                 // redirect to main page
   });
 }]);
+
+// TEMPLATE FOR NEW SHOW ROUTE
+// when('/[selectName]/:itemId', {
+//   templateUrl: 'partials/[folderName]/[fileName].html',
+//   controller: '[ControllerName]'       // [Name] controller
+// }).
