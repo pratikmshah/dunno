@@ -12,7 +12,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
 
     if (optionVal === 'boot3') {
       // bootstrap 3 data
-      $http.get('db/boot3/data.json').success(function(data) {
+      $http.get("db/" + optionVal + "/data.json").success(function(data) {
         $scope.boot3 = data;
       });
     } else if (optionVal === 'git') {
