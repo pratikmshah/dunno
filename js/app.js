@@ -17,6 +17,10 @@ dunno.config(['$routeProvider', function($routeProvider){
     templateUrl: 'partials/cli/cli.html',
     controller: 'CommandLineController'           // command line controller
   }).
+  when('/git/:itemId', {
+    templateUrl: 'partials/git/show.html',
+    controller: 'GitController'                    // git controller
+  }).
   otherwise({
     redirectTo: '/main'                           // redirect to main page
   });

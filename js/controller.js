@@ -8,22 +8,10 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
     // query the DOM to get the selection value to use in controller and in main.html for show page
     $scope.selected = optionVal = $('#selection').val();
 
-    if (optionVal === 'boot3') {
-
-        $http.get("db/" + optionVal + "/data.json").success(function(data) {
-          $scope.result = data;
-        });
-
-    } else if (optionVal === 'git') {
-
-        $scope.result = null;
-
-    } else if (optionVal === 'cli') {
-
-        $http.get("db/" + optionVal + "/data.json").success(function(data) {
-          $scope.result = data;
-        });
-    }
+    // method to retrieve data
+    $http.get("db/" + optionVal + "/data.json").success(function(data) {
+      $scope.result = data;
+    });
 
   };
 
@@ -45,14 +33,15 @@ mainControllers.controller('CommandLineController', ['$scope', '$http', '$routeP
   });
 }]);
 
+// Git show page
+mainControllers.controller('GitController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/git/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
+  });
+}]);
 
 // CONTROLLER TEMPLATE
-
-// } else if (optionVal === '[nameOfValue]') {
-    // $http.get("db/" + optionVal + "/data.json").success(function(data) {
-    //    $scope.result = data;
-    // });
-// }
 
 // [Showpage Name For] show page
 // mainControllers.controller('[ControllerName]', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
