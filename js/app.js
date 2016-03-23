@@ -1,6 +1,7 @@
 var dunno = angular.module('dunno', [
   'ngRoute',                      // use angular routes
-  'mainControllers'               // run main controller
+  'mainControllers',              // run main controller
+  'youtube-embed'                 // add youtube embedded videos
 ]);
 
 dunno.config(['$routeProvider', function($routeProvider){
@@ -16,6 +17,10 @@ dunno.config(['$routeProvider', function($routeProvider){
   when('/cli/:itemId', {
     templateUrl: 'partials/cli/cli.html',
     controller: 'CommandLineController'           // command line controller
+  }).
+  when('/git/:itemId', {
+    templateUrl: 'partials/git/show.html',
+    controller: 'GitController'                    // git controller
   }).
   otherwise({
     redirectTo: '/main'                           // redirect to main page
