@@ -7,27 +7,29 @@
       </div>
 
       <div class="panel-body">
+
         <p>{{result[itemIndx].desc}}</p>
         <a href="{{result[itemIndx].url}}" class="ggreen" target="_blank">Link</a> <br/>
 
-        <ul ng-repeat="(key, value) in result[itemIndx].sub-cmd" class="list-unstyled">
-          <li>
-            {{value}}
-          </li>
+        <ul ng-repeat="(key, value) in result[itemIndx].subCmd" class="list-unstyled">
+          <li>{{value}}</li>
         </ul>
 
         <h4>Other resources and subtopics</h4>
 
-        <ul ng-repeat="(key, value) in result[itemIndx].sub-txt">
+        <h5>Articles</h5>
+        <ul ng-repeat="(key, value) in result[itemIndx].subTxt">
           <li>
             <a href="{{value}}" class="gblue" target="_blank">{{key}}</a>
           </li>
         </ul>
 
-        <ul ng-repeat="(key, value) in result[itemIndx].sub-vid" class="list-unstyled">
+        <h5>Videos</h5>
+
+        <ul ng-repeat="(key, value) in result[itemIndx].subVid" class="list-unstyled">
           <li>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="{{value}}" class="embed-responsive-item"></iframe>
+              <youtube-video video-url=value class="embed-responsive-item"></youtube-video>
             </div>
           </li>
         </ul>

@@ -41,13 +41,3 @@ mainControllers.controller('GitController', ['$scope', '$http', '$routeParams', 
   });
 }]);
 
-// CONTROLLER TEMPLATE
-
-// [Showpage Name For] show page
-// mainControllers.controller('[ControllerName]', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
-//   $http.get('db/[folder name]/data.json').success(function(data) {
-//     $scope.result = data;
-//     $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
-//   });
-
-

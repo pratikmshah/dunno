@@ -1,6 +1,7 @@
 var dunno = angular.module('dunno', [
   'ngRoute',                      // use angular routes
-  'mainControllers'               // run main controller
+  'mainControllers',              // run main controller
+  'youtube-embed'                 // add youtube embedded videos
 ]);
 
 dunno.config(['$routeProvider', function($routeProvider){
