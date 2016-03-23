@@ -1,5 +1,5 @@
 <section id="show" class="row">
-  <div class="col-xs-6 col-xs-offset-3">
+  <div class="col-xs-8 col-xs-offset-2">
     <div class="panel panel-default" ng-model="result">
 
       <div class="panel-heading">
@@ -11,23 +11,23 @@
         <p>{{result[itemIndx].desc}}</p>
         <a href="{{result[itemIndx].url}}" class="ggreen" target="_blank">Link</a> <br/>
 
-        <ul ng-repeat="(key, value) in result[itemIndx].subCmd" class="list-unstyled">
-          <li>{{value}}</li>
+        <h4>Git Commands</h4>
+        <ul id="git-command">
+          <li ng-repeat="(key, value) in result[itemIndx].subCmd">{{key}} => <b>{{value}}</b></li>
         </ul>
 
         <h4>Other resources and subtopics</h4>
 
         <h5>Articles</h5>
-        <ul ng-repeat="(key, value) in result[itemIndx].subTxt">
-          <li>
+        <ul>
+          <li ng-repeat="(key, value) in result[itemIndx].subTxt">
             <a href="{{value}}" class="gblue" target="_blank">{{key}}</a>
           </li>
         </ul>
 
         <h5>Videos</h5>
-
-        <ul ng-repeat="(key, value) in result[itemIndx].subVid" class="list-unstyled">
-          <li>
+        <ul class="list-unstyled">
+          <li ng-repeat="(key, value) in result[itemIndx].subVid">
             <div class="embed-responsive embed-responsive-16by9">
               <youtube-video video-url=value class="embed-responsive-item"></youtube-video>
             </div>
