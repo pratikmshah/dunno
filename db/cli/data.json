@@ -11,14 +11,14 @@
     }
   },
   {
-    "title":"Path, Folders and Directories",
+    "title":"Path, Folders and Directories (pwd)",
     "url":"http://cli.learncodethehardway.org/book/ex2.html",
     "desc":"Learn to find the full path to the current directory you are in.",
     "tags":["pwd", "folder", "path", "directory"],
     "sub": {}
   },
   {
-    "title":"Computer Name",
+    "title":"Computer Name (hostname)",
     "url":"http://cli.learncodethehardway.org/book/ex3.html",
     "desc":"Find out the hostname/computer name.",
     "tags":["hostname", "computer name", "name"],
@@ -123,7 +123,7 @@
     }
   },
   {
-    "title":"Pipes (|)",
+    "title":"Pipes ( | )",
     "url":"http://cli.learncodethehardway.org/book/ex15.html",
     "desc":"Use pipes to redirect commands.",
     "tags":["redirect", "pipe"],
@@ -141,7 +141,7 @@
     }
   },
   {
-    "title":"Find Files (find, DIR -R",
+    "title":"Find Files (find, DIR -R)",
     "url":"http://cli.learncodethehardway.org/book/ex17.html",
     "desc":"Search and find info in files",
     "tags":[],
