@@ -1,0 +1,29 @@
+[
+  {
+    "title":"Other Resources",
+    "url":"https://git-scm.com/",
+    "desc":"Official git source website",
+    "tags":[],
+    "sub-txt": {
+      "Wiki-Git":"https://en.wikipedia.org/wiki/Git_(software)",
+      "Atlassian Git Tuts":"https://www.atlassian.com/git/",
+
+    },
+    "sub-vid": {
+      "Git Basics":"https://www.youtube.com/embed/U8GBXvdmHT4"
+    }
+  },
+  {
+    "title":"Install & Configure",
+    "url":"https://git-scm.com/book/en/v2/Getting-Started-Installing-Git",
+    "desc":"Install git and configure user account/setting",
+    "tags":[],
+    "sub": {
+      "version":"git --version // version of git",
+      "config":"Configure Git at System, User and Project level",
+      "system":"  - System: git config --system",
+      "user":"  - User: git config --global",
+      "project":"  - Project: git config",
+    }
+  }
+]
