@@ -34,7 +34,7 @@
                 <a href="#/{{selected}}/{{result.indexOf(item)}}" class="result-clr">{{item.title}}</a>
               </h4>
               <p>{{item.desc}}</p>
-              <a href="{{item.url}}" class="ggreen" target="_blank">Link</a>
+              <a href="{{item.url}}" ng-if="item.url.length" class="ggreen" target="_blank">Link</a>
             </div>
           </li>
         </ul>

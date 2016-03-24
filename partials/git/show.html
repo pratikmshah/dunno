@@ -9,7 +9,7 @@
       <div class="panel-body">
 
         <p>{{result[itemIndx].desc}}</p>
-        <a href="{{result[itemIndx].url}}" class="ggreen" target="_blank">Link</a> <br/>
+        <a href="{{result[itemIndx].url}}" ng-if="result[itemIndx].url" class="ggreen" target="_blank">Link</a> <br/>
 
         <h4>Git Commands</h4>
         <ul id="git-command">
