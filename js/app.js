@@ -11,11 +11,11 @@ dunno.config(['$routeProvider', function($routeProvider){
     controller: 'MainController'                  // main controller conatains all data (bootstrap, git, rails4 etc..)
   }).
   when('/boot3/:itemId', {
-    templateUrl: 'partials/bootstrap3/boot3.html',
+    templateUrl: 'partials/bootstrap3/show.html',
     controller: 'Boot3Controller'                 // bootstrap 3 controller
   }).
   when('/cli/:itemId', {
-    templateUrl: 'partials/cli/cli.html',
+    templateUrl: 'partials/cli/show.html',
     controller: 'CommandLineController'           // command line controller
   }).
   when('/git/:itemId', {
