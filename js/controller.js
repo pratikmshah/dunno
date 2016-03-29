@@ -6,7 +6,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
   $scope.select = function() {
 
     // query the DOM to get the selection value to use in controller and in main.html for show page
-    $scope.selected = optionVal = $('#selection').val();
+    $scope.selected = optionVal = $('#selection').val().toLowerCase();
 
     // method to retrieve data
     $http.get("db/" + optionVal + "/data.json").success(function(data) {
@@ -21,7 +21,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
 mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
   $http.get('db/boot3/data.json').success(function(data) {
     $scope.result = data;
-    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
+    $scope.itemIndx = $routeParams.itemId;
   });
 }]);
 
@@ -29,7 +29,7 @@ mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams'
 mainControllers.controller('CommandLineController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
   $http.get('db/cli/data.json').success(function(data) {
     $scope.result = data;
-    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
+    $scope.itemIndx = $routeParams.itemId;
   });
 }]);
 
@@ -37,7 +37,15 @@ mainControllers.controller('CommandLineController', ['$scope', '$http', '$routeP
 mainControllers.controller('GitController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
   $http.get('db/git/data.json').success(function(data) {
     $scope.result = data;
-    $scope.itemIndx = $routeParams.itemId;   // get the index number of the item
+    $scope.itemIndx = $routeParams.itemId;
+  });
+}]);
+
+// HTML show page
+mainControllers.controller('HtmlController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/html/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;
   });
 }]);
 
