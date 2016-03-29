@@ -10,10 +10,6 @@ dunno.config(['$routeProvider', function($routeProvider){
     templateUrl: 'partials/main.html',
     controller: 'MainController'                  // main controller conatains all data (bootstrap, git, rails4 etc..)
   }).
-  when('/css/:itemId', {
-    templateUrl: 'partials/bootstrap3/show.html',
-    controller: 'CssController'                   // bootstrap 3 controller
-  }).
   when('/boot3/:itemId', {
     templateUrl: 'partials/bootstrap3/show.html',
     controller: 'Boot3Controller'                 // bootstrap 3 controller
@@ -22,6 +18,10 @@ dunno.config(['$routeProvider', function($routeProvider){
     templateUrl: 'partials/cli/show.html',
     controller: 'CommandLineController'           // command line controller
   }).
+  when('/css/:itemId', {
+    templateUrl: 'partials/bootstrap3/show.html',
+    controller: 'CssController'                   // CSS controller
+  }).
   when('/git/:itemId', {
     templateUrl: 'partials/git/show.html',
     controller: 'GitController'                   // git controller
@@ -29,6 +29,10 @@ dunno.config(['$routeProvider', function($routeProvider){
   when('/html/:itemId', {
     templateUrl: 'partials/html/show.html',
     controller: 'HtmlController'                  // HTML controller
+  }).
+  when('/js/:itemId', {
+    templateUrl: 'partials/html/show.html',
+    controller: 'JavascriptController'            // javascript controller
   }).
   otherwise({
     redirectTo: '/main'                           // redirect to main page
