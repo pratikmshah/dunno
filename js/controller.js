@@ -49,3 +49,10 @@ mainControllers.controller('HtmlController', ['$scope', '$http', '$routeParams',
   });
 }]);
 
+// Css show page
+mainControllers.controller('CssController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/css/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;
+  });
+}]);
