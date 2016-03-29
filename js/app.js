@@ -24,7 +24,7 @@ dunno.config(['$routeProvider', function($routeProvider){
   }).
   when('/html/:itemId', {
     templateUrl: 'partials/html/show.html',
-    controller: 'HTMLController'                   // HTML controller
+    controller: 'HtmlController'                   // HTML controller
   }).
   otherwise({
     redirectTo: '/main'                           // redirect to main page

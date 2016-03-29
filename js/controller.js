@@ -6,7 +6,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
   $scope.select = function() {
 
     // query the DOM to get the selection value to use in controller and in main.html for show page
-    $scope.selected = optionVal = $('#selection').val();
+    $scope.selected = optionVal = $('#selection').val().toLowerCase();
 
     // method to retrieve data
     $http.get("db/" + optionVal + "/data.json").success(function(data) {
