@@ -25,16 +25,15 @@
   {
     "title":"Selectors - Basic Filters",
     "url":"https://api.jquery.com/category/selectors/basic-filter-selectors/",
-    "desc":":animated, :eq(), :even, :first, :gt(), :header, :lang(), 
-    		:last(), :lt(), :not(), :odd, :root, :target",
+    "desc":":animated, :eq(), :even, :first, :gt(), :header, :lang(), :last(), :lt(), :not(), :odd, :root, :target",
     "sub": {
     	":animated":"https://api.jquery.com/animated-selector/",
     	":eq()":"https://api.jquery.com/eq-selector/",
     	":even":"https://api.jquery.com/even-selector/",
-    	":first":"https://api.jquery.com/first-selector/",    
+    	":first":"https://api.jquery.com/first-selector/",
     	":gt()":"https://api.jquery.com/gt-selector/",
     	":header":"https://api.jquery.com/header-selector/",
-    	":lang()":"https://api.jquery.com/lang-selector/", 
+    	":lang()":"https://api.jquery.com/lang-selector/",
     	":last()":"https://api.jquery.com/last-selector/",
     	":lt()":"https://api.jquery.com/lt-selector/",
     	":not()":"https://api.jquery.com/not-selector/",
@@ -66,24 +65,22 @@
   {
     "title":"Selectors - Attribute",
     "url":"https://api.jquery.com/category/selectors/attribute-selectors/",
-    "desc":"[name|=\"value\"], [name*=\"value\"], [name~=\"value\"], [name$=\"value\"], 
-    		[name=\"value\"], [name!=\"value\"], [name], [name=\"value\"][name2=\"value2\"],,",
+    "desc":"[name|=\"value\"], [name*=\"value\"], [name~=\"value\"], [name$=\"value\"],[name=\"value\"], [name!=\"value\"], [name], [name=\"value\"][name2=\"value2\"]",
     "sub": {
     	"[name|=\"value\"]":"https://api.jquery.com/attribute-contains-prefix-selector/",
     	"[name*=\"value\"]":"https://api.jquery.com/attribute-contains-selector/",
     	"[name~=\"value\"]":"https://api.jquery.com/attribute-contains-word-selector/",
-    	"[name$=\"value\"]":"https://api.jquery.com/attribute-ends-with-selector/",    	
-    	"[name=\"value\"]":"https://api.jquery.com/attribute-equals-selector/",    	
-    	"[name!=\"value\"]":"https://api.jquery.com/attribute-not-equal-selector/",    	
-    	"[name]":"https://api.jquery.com/has-attribute-selector/",    
+    	"[name$=\"value\"]":"https://api.jquery.com/attribute-ends-with-selector/",
+    	"[name=\"value\"]":"https://api.jquery.com/attribute-equals-selector/",
+    	"[name!=\"value\"]":"https://api.jquery.com/attribute-not-equal-selector/",
+    	"[name]":"https://api.jquery.com/has-attribute-selector/",
     	"[name=\"value\"][name2=\"value2\"]":"https://api.jquery.com/multiple-attribute-selector/"
     }
   },
   {
     "title":"Selectors - Child Filters",
     "url":"https://api.jquery.com/category/selectors/child-filter-selectors/",
-    "desc":":first-child, :first-of-type, :last-child, :last-of-type, 
-    		:nth-child(), :nth-last-child(), :nth-of-type(), :only-child, :only-of-type()",
+    "desc":":first-child, :first-of-type, :last-child, :last-of-type, :nth-child(), :nth-last-child(), :nth-of-type(), :only-child, :only-of-type()",
     "sub": {
     	":first-child":"https://api.jquery.com/first-child-selector/",
     	":first-of-type":"https://api.jquery.com/first-of-type-selector/",
@@ -99,9 +96,7 @@
   {
     "title":"Selectors - Forms",
     "url":"https://api.jquery.com/category/selectors/form-selectors/",
-    "desc":":button, :checkbox, :checked, :disabled, :enabled, :focus, 
-    		:file, :image, :input, :password, :radio, :reset, :selected, 
-    		:submit, :text",
+    "desc":":button, :checkbox, :checked, :disabled, :enabled, :focus, :file, :image, :input, :password, :radio, :reset, :selected, :submit, :text",
     "sub": {
     	":button":"https://api.jquery.com/button-selector/",
     	":checkbox":"https://api.jquery.com/checkbox-selector/",
@@ -109,7 +104,6 @@
     	":disabled":"https://api.jquery.com/disabled-selector/",
         ":enabled":"https://api.jquery.com/enabled-selector/",
     	":focus":"https://api.jquery.com/focus-selector/",
-    	":file":"https://api.jquery.com/file-selector/",
     	":file":"https://api.jquery.com/file-selector/",
         ":image":"https://api.jquery.com/image-selector/",
     	":input":"https://api.jquery.com/input-selector/",
@@ -258,7 +252,7 @@
     	".last()":"https://api.jquery.com/last/",
     	".map()":"https://api.jquery.com/map/",
     	".not()":"https://api.jquery.com/not/",
-    	".slice()":"https://api.jquery.com/slice/"	
+    	".slice()":"https://api.jquery.com/slice/"
     }
   },
   {
@@ -276,11 +270,8 @@
   {
     "title":"Traversing - Tree Traversal",
     "url":"https://api.jquery.com/category/traversing/tree-traversal/",
-    "desc":".addBack(), .children(), .closest(), .find(), .next(), .nextAll(), 
-    		.nextUntil(), .parent(), .parents(), .parentsUntil(), .prev(), 
-    		.prevAll(), .prevUntil(), .siblings()",
+    "desc":".addBack(), .children(), .closest(), .find(), .next(), .nextAll(), .nextUntil(), .parent(), .parents(), .parentsUntil(), .prev(), .prevAll(), .prevUntil(), .siblings()",
     "sub": {
-    	"":"https://api.jquery.com/addBack/",
     	".addBack()":"https://api.jquery.com/addBack/",
     	".children()":"https://api.jquery.com/children/",
     	".closest()":"https://api.jquery.com/closest/",
@@ -294,7 +285,7 @@
     	".prev()":"https://api.jquery.com/prev/",
         ".prevAll()":"https://api.jquery.com/prevAll/",
     	".prevUntil()":"https://api.jquery.com/prevUntil/",
-    	".siblings()":"https://api.jquery.com/siblings/"	
+    	".siblings()":"https://api.jquery.com/siblings/"
     }
   },
   {
@@ -321,8 +312,7 @@
   {
     "title":"Events - Event Handler Attachment",
     "url":"https://api.jquery.com/category/events/event-handler-attachment/",
-    "desc":".bind(), .delegate(), .die(), .live(), .off(), .on(), 
-    		.one(), .trigger(), .triggerHandler(), .unbind(), .undelegate()",
+    "desc":".bind(), .delegate(), .die(), .live(), .off(), .on(), .one(), .trigger(), .triggerHandler(), .unbind(), .undelegate()",
     "sub": {
     	".bind()":"https://api.jquery.com/bind/",
     	".delegate()":"https://api.jquery.com/delegate/",
@@ -362,8 +352,7 @@
   {
     "title":"Events - Mouse Events",
     "url":"https://api.jquery.com/category/events/mouse-events/",
-    "desc":".click(), .dblclick(), .focusin(), .focusout(), .hover(), .mousedown(), 
-    		.mouseenter(), .mouseleave(), .mousemove(), .mouseout(), .mouseover(), .mouesup()",
+    "desc":".click(), .dblclick(), .focusin(), .focusout(), .hover(), .mousedown(), .mouseenter(), .mouseleave(), .mousemove(), .mouseout(), .mouseover(), .mouesup()",
     "sub": {
     	".click()":"https://api.jquery.com/click/",
     	".dblclick()":"https://api.jquery.com/dblclick/",
@@ -383,12 +372,9 @@
   {
     "title":"Events - Event Object",
     "url":"https://api.jquery.com/category/events/event-object/",
-    "desc":"event.currentTraget, event.data, event.isDefaultPrevented(), event.isImmediatePropagationStopped(),
-    		event.isPropagationStopped(), event.namespace, event.pageX, event.pageY, event.preventDefault(),
-    		event.relatedTarget, event.result, event.stopImmediatePropagation(), event.stopPropagation(),
-    		event.target, event.timeStamp, event.type, event.which",
+    "desc":"event.currentTarget, event.data, event.isDefaultPrevented(), event.isImmediatePropagationStopped(), event.isPropagationStopped(), event.namespace, event.pageX, event.pageY, event.preventDefault(), event.relatedTarget, event.result, event.stopImmediatePropagation(), event.stopPropagation(), event.target, event.timeStamp, event.type, event.which",
     "sub": {
-    	"event.currentTraget":"https://api.jquery.com/event.currentTarget/",
+    	"event.currentTarget":"https://api.jquery.com/event.currentTarget/",
     	"event.data":"https://api.jquery.com/event.data/",
     	"event.isDefaultPrevented()":"https://api.jquery.com/event.isDefaultPrevented/",
     	"event.isImmediatePropagationStopped()":"https://api.jquery.com/event.isImmediatePropagationStopped/",
@@ -513,11 +499,7 @@
   {
     "title":"Core - Utilities",
     "url":"https://api.jquery.com/category/utilities/",
-    "desc":"jQuery.boxModel, jQuery.browse, jQuery.contains(), jQuery.each(), jQuery.extend(), jQuery.globalEval(), jQuery.grep(),
-            jQuery.inArray(), jQuery.isArray(), jQuery.isEmptyObject(), jQuery.isFunction(), jQuery.isNumeric(), jQuery.isPlainObject(),
-            jQuery.isWindow(), jQuery.isXMLDoc(), jQuery.makeArray(), jQuery.map(), jQuery.merge(), jQuery.noop(), jQuery.now(),
-            jQuery.parseHTML(), jQuery.parseJSON(), jQuery.parseXML(), jQuery.proxy(), jQuery.support, jQuery.trim(), jQuery.type(),
-            jQuery.unique()",
+    "desc":"jQuery.boxModel, jQuery.browse, jQuery.contains(), jQuery.each(), jQuery.extend(), jQuery.globalEval(), jQuery.grep(), jQuery.inArray(), jQuery.isArray(), jQuery.isEmptyObject(), jQuery.isFunction(), jQuery.isNumeric(), jQuery.isPlainObject(), jQuery.isWindow(), jQuery.isXMLDoc(), jQuery.makeArray(), jQuery.map(), jQuery.merge(), jQuery.noop(), jQuery.now(), jQuery.parseHTML(), jQuery.parseJSON(), jQuery.parseXML(), jQuery.proxy(), jQuery.support, jQuery.trim(), jQuery.type(), jQuery.unique()",
     "sub": {
     	"jQuery.boxModel -dep1.3 -rem1.8":"https://api.jquery.com/jQuery.boxModel/",
     	"jQuery.browser -dep1.3 -rem1.9":"https://api.jquery.com/jQuery.browser/",
@@ -576,10 +558,7 @@
   {
     "title":"Core - Deferred Object",
     "url":"https://api.jquery.com/category/deferred-object/",
-    "desc":"defered.always(), deferred.done(), deferred.fail(), deferred.isRejected(), deferred.isResolved(),
-            deferred.notify(), deferred.notifyWith(), deferred.pipe(), deferred.progress(), deferred.promise(),
-            deferred.reject(), deferred.rejectWith(), deferred.resolve(), deferred.resolveWith(),
-            deferred.state(), deferred.then(), .promise()",
+    "desc":"defered.always(), deferred.done(), deferred.fail(), deferred.isRejected(), deferred.isResolved(), deferred.notify(), deferred.notifyWith(), deferred.pipe(), deferred.progress(), deferred.promise(), deferred.reject(), deferred.rejectWith(), deferred.resolve(), deferred.resolveWith(), deferred.state(), deferred.then(), .promise()",
     "sub": {
         "defered.always()":"https://api.jquery.com/deferred.always/",
         "deferred.done()":"https://api.jquery.com/deferred.done/",
@@ -597,15 +576,13 @@
         "deferred.resolveWith()":"https://api.jquery.com/deferred.resolveWith/",
         "deferred.state()":"https://api.jquery.com/deferred.state/",
         "deferred.then()":"https://api.jquery.com/deferred.then/",
-        ".promise()":"https://api.jquery.com/promise/"   
+        ".promise()":"https://api.jquery.com/promise/"
     }
   },
   {
     "title":"Core - Callbacks Object",
     "url":"https://api.jquery.com/category/callbacks-object/",
-    "desc":"jQuery.Callbacks(), callbacks.add(), callbacks.disable(), callbacks.empty(), callbacks.fire(),
-            callbacks.fired(), callbacks.fireWith(), callbacks.has(), callbacks.lock(), callbacks.locked(),
-            callbacks.remove()",
+    "desc":"jQuery.Callbacks(), callbacks.add(), callbacks.disable(), callbacks.empty(), callbacks.fire(), callbacks.fired(), callbacks.fireWith(), callbacks.has(), callbacks.lock(), callbacks.locked(), callbacks.remove()",
     "sub": {
         "jQuery.Callbacks()":"https://api.jquery.com/jQuery.Callbacks/",
         "callbacks.add()":"https://api.jquery.com/callbacks.add/",
@@ -615,9 +592,9 @@
         "callbacks.fired()":"https://api.jquery.com/callbacks.fired/",
         "callbacks.fireWith()":"https://api.jquery.com/callbacks.fireWith/",
         "callbacks.has()":"https://api.jquery.com/callbacks.has/",
-        "callbacks.lock()":"https://api.jquery.com/callbacks.lock/",   
-        "callbacks.locked()":"https://api.jquery.com/callbacks.locked/",   
-        "callbacks.remove()":"https://api.jquery.com/callbacks.remove/" 
+        "callbacks.lock()":"https://api.jquery.com/callbacks.lock/",
+        "callbacks.locked()":"https://api.jquery.com/callbacks.locked/",
+        "callbacks.remove()":"https://api.jquery.com/callbacks.remove/"
     }
   }
 ]
