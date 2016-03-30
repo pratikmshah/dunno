@@ -17,6 +17,14 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
 
 }]);
 
+// Angular JS how page
+mainControllers.controller('AngularController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/angjs/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;
+  });
+}]);
+
 // Bootstrap 3 show page
 mainControllers.controller('Boot3Controller', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
   $http.get('db/boot3/data.json').success(function(data) {
