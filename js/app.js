@@ -12,7 +12,7 @@ dunno.config(['$routeProvider', function($routeProvider){
   }).
   when('/angjs/:itemId', {
     templateUrl: 'partials/angjs/show.html',
-    controller: 'AngularController'                 // bootstrap 3 controller
+    controller: 'AngularController'               // angular js controller
   }).
   when('/boot3/:itemId', {
     templateUrl: 'partials/bootstrap3/show.html',
@@ -37,6 +37,10 @@ dunno.config(['$routeProvider', function($routeProvider){
   when('/js/:itemId', {
     templateUrl: 'partials/html/show.html',
     controller: 'JavascriptController'            // javascript controller
+  }).
+  when('/jquery/:itemId', {
+    templateUrl: 'partials/jquery/show.html',
+    controller: 'JqueryController'                // jquery controller
   }).
   otherwise({
     redirectTo: '/main'                           // redirect to main page

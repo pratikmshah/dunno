@@ -72,3 +72,11 @@ mainControllers.controller('JavascriptController', ['$scope', '$http', '$routePa
     $scope.itemIndx = $routeParams.itemId;
   });
 }]);
+
+// jQuery show page
+mainControllers.controller('JqueryController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('db/jquery/data.json').success(function(data) {
+    $scope.result = data;
+    $scope.itemIndx = $routeParams.itemId;
+  });
+}]);
