@@ -19,7 +19,7 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
 
 // Angular JS how page
 mainControllers.controller('AngularController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
-  $http.get('db/angular/data.json').success(function(data) {
+  $http.get('db/angjs/data.json').success(function(data) {
     $scope.result = data;
     $scope.itemIndx = $routeParams.itemId;
   });

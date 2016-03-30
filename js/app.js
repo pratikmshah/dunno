@@ -11,7 +11,7 @@ dunno.config(['$routeProvider', function($routeProvider){
     controller: 'MainController'                  // main controller conatains all data (bootstrap, git, rails4 etc..)
   }).
   when('/angjs/:itemId', {
-    templateUrl: 'partials/angular/show.html',
+    templateUrl: 'partials/angjs/show.html',
     controller: 'AngularController'                 // bootstrap 3 controller
   }).
   when('/boot3/:itemId', {
