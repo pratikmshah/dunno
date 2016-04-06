@@ -1,18 +1,32 @@
-<section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')">
+<section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
   <article id="selectors" class="selectors">
-    <h4>SELECTORS</h4>
+    <h5>SELECTORS</h5>
     <div>
       <div>
+
         <section>
-          <ul>Basics</ul>
-            <li ng-repeat="item in result">
-              TEST
+          <h6>Basics</h6>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Basics' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
             </li>
-        </section>
+          </ul>
+        </section> <!-- Basics -->
+
+        <section>
+          <h6>Hierarchy</h6>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Hierarchy -->
+
       </div>
     </div>
   </article> <!-- outer countainer -->
-
-
-
 </section>
