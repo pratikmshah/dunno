@@ -1,11 +1,13 @@
-<section id="cheatsheet">
+<section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')">
   <article id="selectors" class="selectors">
     <h4>SELECTORS</h4>
     <div>
       <div>
         <section>
-          <h5>Basics</h5>
-
+          <ul>Basics</ul>
+            <li ng-repeat="item in result">
+              TEST
+            </li>
         </section>
       </div>
     </div>
