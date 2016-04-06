@@ -98,7 +98,7 @@
         </section> <!-- Forms -->
       </div><!-- Selectors col-3 -->
     </div> <!-- Selectors section -->
-  </article> <!-- outer countainer -->
+  </article>
 
   <article id="attributes" class="attributes">
     <h5>ATTRIBUTES / CSS</h5>
@@ -162,7 +162,7 @@
 
       </div> <!-- attributes/css col-1 -->
     </div> <!-- Attributes/CSS section -->
-  </article> <!-- outer container -->
+  </article>
 
   <article id="manipulation" class="manipulation clearfix">
     <h5>MANIPULATION</h5>
@@ -178,7 +178,113 @@
             </li>
           </ul>
         </section> <!-- Copying -->
-      </div>
-    </div>
+
+        <section>
+          <h5>DOM Insertion, Around</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Around' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Around -->
+
+        <section>
+          <h5>DOM Insertion, Inside</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Inside' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Inside -->
+
+        <section>
+          <h5>DOM Insertion, Outside</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Outside' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Outside -->
+
+        <section>
+          <h5>DOM Removal</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Removal' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Removal -->
+
+        <section>
+          <h5>DOM Replacement</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Replacement' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Replacement -->
+      </div> <!-- manipulation col-1 -->
+    </div> <!-- Manipulation section -->
   </article>
+
+  <article id="traversing" class="traversing">
+    <h5>TRAVERSING</h5>
+    <div>
+      <div>
+
+        <section>
+          <h5>Filtering</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Filtering' && item.category == 'Traversing' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Filtering -->
+
+        <section>
+          <h5>Miscellaneous Traversing</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Misc Traversing' && item.category == 'Traversing' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Miscellaneous Traversing -->
+
+        <section>
+          <h5>Tree Traversal</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Tree Traversal' && item.category == 'Traversing' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Tree Traversal -->
+
+      </div><!-- traversing col-1 -->
+    </div> <!-- Traversing section -->
+  </article>
+
+  <article id="traversing" class="traversing">
+    <h5>TRAVERSING</h5>
+    <div>
+      <div>
+      </div><!-- events col-1 -->
+    </div><!-- Events section -->
+  </article>
+
 </section>
