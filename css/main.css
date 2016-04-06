@@ -1,7 +1,11 @@
+/* navigation bar */
+.navbar { border-radius: 0; }
+.navbar-default { background-color: #F1F1F1; }
+
 /* title logo */
 #app-title {
-  font-size: 4.5em;
-  color: #55ACEF;
+  margin: 0;
+  font-size: 2em;
 }
 
 /* title color */
