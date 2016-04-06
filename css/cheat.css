@@ -3,7 +3,10 @@
 #attributes,
 #manipulation,
 #traversing,
-#events {
+#events,
+#effects,
+#ajax,
+#core {
   float: left;
 }
 

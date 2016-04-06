@@ -423,7 +423,7 @@
     }
   },
   {
-    "category":"Events",
+    "category":"Effects",
     "title":"Basics",
     "url":"https://api.jquery.com/category/effects/basics/",
     "desc":".hide(), .show(), .toggle()",
@@ -434,7 +434,7 @@
     }
   },
    {
-    "category":"Events",
+    "category":"Effects",
     "title":"Custom",
     "url":"https://api.jquery.com/category/effects/custom-effects/",
     "desc":".animate(), .clearQueue(), .delay(), .dequeue(), .finish(), jQuery.fx.interval, jQuery.fx.off, .queue(), jQuery.queue(), .stop()",
@@ -452,7 +452,7 @@
     }
   },
   {
-    "category":"Events",
+    "category":"Effects",
     "title":"Fading",
     "url":"https://api.jquery.com/category/effects/fading/",
     "desc":".fadeIn(), .fadeOut(), .fadeTo(), .fadeToggle()",
@@ -464,7 +464,7 @@
     }
   },
   {
-    "category":"Events",
+    "category":"Effects",
     "title":"Sliding",
     "url":"https://api.jquery.com/category/effects/sliding/",
     "desc":".slideDown(), .slideToggle(), .slideUp()",

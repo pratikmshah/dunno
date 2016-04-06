@@ -368,12 +368,117 @@
     </div><!-- Events section -->
   </article>
 
-  <article id="effects" class="effects">
+  <article id="effects" class="effects clearfix">
     <h5>EFFECTS</h5>
     <div>
       <div>
-      </div>
+
+        <section>
+          <h5>Basics</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Basics' && item.category == 'Effects' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Basics -->
+
+        <section>
+          <h5>Custom</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Custom' && item.category == 'Effects' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Custom -->
+
+        <section>
+          <h5>Fading</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Fading' && item.category == 'Effects' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Fading -->
+
+        <section>
+          <h5>Sliding</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Sliding' && item.category == 'Effects' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Sliding -->
+
+      </div> <!-- effects col-1 -->
     </div> <!-- Effects section -->
   </article>
+
+  <article id="ajax" class="ajax">
+    <h5>AJAX</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Global Ajax Event Handlers</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Global Ajax Event Handlers' && item.category == 'Ajax' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Global Ajax Event Handlers -->
+
+        <section>
+          <h5>Helper Functions</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Helper Functions' && item.category == 'Ajax' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Helper Functions -->
+
+        <section>
+          <h5>Low-Level Interface</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Low-Level Interface' && item.category == 'Ajax' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Low-Level Interface -->
+
+        <section>
+          <h5>Shorthand Methods</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Shorthand Methods' && item.category == 'Ajax' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Shorthand Methods -->
+
+      </div>
+    </div> <!-- ajax col-1 -->
+  </article> <!-- Ajax section -->
+
+  <article id="core" class="core">
+    <h5>core</h5>
+    <div>
+      <div>
+      </div>
+    </div> <!-- cor col-1 -->
+  </article> <!-- Core section -->
 
 </section>
