@@ -100,8 +100,85 @@
     </div> <!-- Selectors section -->
   </article> <!-- outer countainer -->
 
-  <article>
+  <article id="attributes" class="attributes">
+    <h5>ATTRIBUTES / CSS</h5>
+    <div>
+      <div>
 
+        <section>
+          <h5>Attributes</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Attributes' && item.category == 'Attributes/CSS' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Attributes -->
 
+        <section>
+          <h5>CSS</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'CSS' && item.category == 'Attributes/CSS' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- CSS -->
+
+        <section>
+          <h5>Dimensions</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Dimensions' && item.category == 'Attributes/CSS' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Dimensions -->
+
+        <section>
+          <h5>Offset</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Offset' && item.category == 'Attributes/CSS' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Offset -->
+
+        <section>
+          <h5>Data</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Data' && item.category == 'Attributes/CSS' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Data -->
+
+      </div> <!-- attributes/css col-1 -->
+    </div> <!-- Attributes/CSS section -->
   </article> <!-- outer container -->
+
+  <article id="manipulation" class="manipulation clearfix">
+    <h5>MANIPULATION</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Copying</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Copying' && item.category == 'Manipulation' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Copying -->
+      </div>
+    </div>
+  </article>
 </section>
