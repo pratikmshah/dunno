@@ -1,4 +1,11 @@
-#cheatsheet #selectors, #attributes, #manipulation, #traversing { float: left; }
+#cheatsheet
+#selectors,
+#attributes,
+#manipulation,
+#traversing,
+#events {
+  float: left;
+}
 
 #cheatsheet h5 {
   font-weight: 700;

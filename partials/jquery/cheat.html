@@ -279,12 +279,101 @@
     </div> <!-- Traversing section -->
   </article>
 
-  <article id="traversing" class="traversing">
-    <h5>TRAVERSING</h5>
+  <article id="events" class="events">
+    <h5>EVENTS</h5>
     <div>
       <div>
+
+        <section>
+          <h5>Browser Events</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Browser Events' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Browser Events -->
+
+        <section>
+          <h5>Document Loading</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Document Loading' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Document Loading -->
+
+        <section>
+          <h5>Event Handler Attachment</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Event Handler Attachment' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Event Handler Attachment -->
+
+        <section>
+          <h5>Form Events</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Form Events' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Form Events -->
+
+        <section>
+          <h5>Keyboard Events</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Keyboard Events' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Keyboard Events -->
       </div><!-- events col-1 -->
+
+      <div>
+
+        <section>
+          <h5>Mouse Events</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Mouse Events' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Mouse Events -->
+
+        <section>
+          <h5>Event Object</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Event Object' && item.category == 'Events' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Event Object -->
+
+      </div><!-- events col-2 -->
     </div><!-- Events section -->
+  </article>
+
+  <article id="effects" class="effects">
+    <h5>EFFECTS</h5>
+    <div>
+      <div>
+      </div>
+    </div> <!-- Effects section -->
   </article>
 
 </section>
