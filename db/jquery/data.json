@@ -59,7 +59,7 @@
   },
   {
     "category":"Selectors",
-    "title":"Selectors - Visibility Filters",
+    "title":"Visibility Filters",
     "url":"https://api.jquery.com/category/selectors/visibility-filter-selectors/",
     "desc":":hidden, :visible",
     "sub": {

@@ -3,9 +3,8 @@
     <h5>SELECTORS</h5>
     <div>
       <div>
-
         <section>
-          <h6>Basics</h6>
+          <h5>Basics</h5>
           <ul>
             <li ng-repeat="item in result" ng-if="item.title == 'Basics' && item.category == 'Selectors' ">
               <ul ng-repeat="(key, value) in item.sub">
@@ -16,7 +15,7 @@
         </section> <!-- Basics -->
 
         <section>
-          <h6>Hierarchy</h6>
+          <h5>Hierarchy</h5>
           <ul>
             <li ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
               <ul ng-repeat="(key, value) in item.sub">
@@ -26,7 +25,83 @@
           </ul>
         </section> <!-- Hierarchy -->
 
-      </div>
-    </div>
+        <section>
+          <h5>Basic Filters</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Basic Filters -->
+
+        <section>
+          <h5>Content Filters</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Content Filters' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Content Filters -->
+      </div> <!-- Selectors col-1 -->
+
+      <div>
+
+        <section>
+          <h5>Visibility Filters</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Visibility Filters' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Visibility Filters -->
+
+        <section>
+          <h5>Attribute</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Attribute' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Attribute -->
+
+        <section>
+          <h5>Child Filters</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Child Filters' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Child Filters -->
+
+      </div> <!-- Selectors col-2 -->
+
+      <div>
+        <section>
+          <h5>Forms</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Forms' && item.category == 'Selectors' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Forms -->
+      </div><!-- Selectors col-3 -->
+    </div> <!-- Selectors section -->
   </article> <!-- outer countainer -->
+
+  <article>
+
+
+  </article> <!-- outer container -->
 </section>

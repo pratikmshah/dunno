@@ -1,7 +1,18 @@
+#cheatsheet h5 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 #cheatsheet ul {
   padding: 5px;
   list-style: none;
 }
 
-#cheatsheet ul li {
+#cheatsheet ul li a {
+  text-decoration: none;
+}
+
+#cheatsheet ul li a:hover {
+  color: white;
+  background-color: black;
 }
