@@ -1,4 +1,5 @@
 <section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
+
   <article id="selectors" class="selectors">
     <h5>SELECTORS</h5>
     <div>
@@ -473,12 +474,81 @@
     </div> <!-- ajax col-1 -->
   </article> <!-- Ajax section -->
 
-  <article id="core" class="core">
-    <h5>core</h5>
+  <article id="core" class="core clearfix">
+    <h5>CORE</h5>
     <div>
       <div>
-      </div>
-    </div> <!-- cor col-1 -->
+        <section>
+          <h5>jQuery Object</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'jQuery Object' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- jQuery Object -->
+
+        <section>
+          <h5>Utilities</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Utilities' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Utilities -->
+      </div> <!-- core col-1 -->
+
+      <div>
+        <section>
+          <h5>DOM Element Methods</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'DOM Element Methods' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- DOM Element Methods -->
+
+        <section>
+          <h5>Internals</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Internals' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Internals -->
+
+        <section>
+          <h5>Deferred Object</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Deferred Object' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Deferred Object -->
+      </div> <!-- core col-2 -->
+
+      <div>
+        <section>
+          <h5>Callbacks Object</h5>
+          <ul>
+            <li ng-repeat="item in result" ng-if="item.title == 'Callbacks Object' && item.category == 'Core' ">
+              <ul ng-repeat="(key, value) in item.sub">
+                <li><a href="{{value}}" target="_blank">{{key}}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section> <!-- Callbacks Object -->
+      </div> <!-- core col-3 -->
+    </div>
   </article> <!-- Core section -->
 
 </section>
