@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 #cheatsheet {
-  padding: 0;
+  margin-top: 50px;
   font-family: 'Droid Sans', sans-serif;
   display: flex;
 }
@@ -52,7 +52,6 @@
 }
 
 #cheatsheet ul li a {
-  padding: 2px;
   text-decoration: none;
   color: black;
   font-size: .85em;

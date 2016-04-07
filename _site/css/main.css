@@ -33,7 +33,7 @@ input:focus, textarea {
 }
 
 #search:active,
-#search:focus {
+#search:focus     {
   box-shadow: 0px;
   -webkit-box-shadow: 0px;
   border: 1px solid #4285F4;
@@ -47,11 +47,8 @@ input:focus, textarea {
   border-radius: 0px;
 }
 
-/* spacer */
-
-.spacer { width: 100%; height: 50px; }
-
 /* results */
+#result-container { margin-top: 50px; }
 #results {
   color: #000;
 }

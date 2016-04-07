@@ -17,7 +17,7 @@
           <h5>Hierarchy</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Hierarchy -->
@@ -26,7 +26,7 @@
           <h5>Basic Filters</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Basic Filters -->
@@ -35,7 +35,7 @@
           <h5>Content Filters</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Content Filters' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Content Filters -->
@@ -46,7 +46,7 @@
           <h5>Visibility Filters</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Visibility Filters' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Visibility Filters -->
@@ -55,7 +55,7 @@
           <h5>Attribute</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Attribute' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Attribute -->
@@ -64,7 +64,7 @@
           <h5>Child Filters</h5>
           <ul ng-repeat="item in result" ng-if="item.title == 'Child Filters' && item.category == 'Selectors' ">
             <li ng-repeat="(key, value) in item.sub">
-              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+              <a href="{{value}}" target="_blank">{{key}}</a>
             </li>
           </ul>
         </section> <!-- Child Filters -->
