@@ -33,6 +33,7 @@
 }
 
 #cheatsheet h5 {
+  white-space: nowrap;
   font-weight: 700;
   color: black;
   padding-left: 5px;
@@ -42,9 +43,12 @@
 
 #cheatsheet ul {
   margin-bottom: 0;
-  margin-right: 5px;
   padding-left: 10px;
   list-style: none;
+}
+
+#cheatsheet ul li {
+  white-space: nowrap;
 }
 
 #cheatsheet ul li a {
@@ -56,5 +60,5 @@
 
 #cheatsheet ul li a:hover {
   color: white;
-  background-color: black;
+  background-color: #1B1B1B;
 }
