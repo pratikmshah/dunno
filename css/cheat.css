@@ -8,6 +8,16 @@
 
 #cheatsheet article { border: 1px solid black; }
 
+#cheatsheet article > div {
+  display: flex;
+}
+
+#cheatsheet article > div div {
+  display: block;
+  margin-left: 10px;
+  min-width: 100px;
+}
+
 #cheatsheet article, section {
   display: block;
   padding: 5px;
@@ -32,13 +42,16 @@
 
 #cheatsheet ul {
   margin-bottom: 0;
+  margin-right: 5px;
   padding-left: 5px;
+  padding-right: 10px;
   list-style: none;
 }
 
 #cheatsheet ul li a {
   text-decoration: none;
   color: black;
+  font-size: .85em;
   font-weight: 400;
 }
 
@@ -46,13 +59,3 @@
   color: white;
   background-color: black;
 }
-
-/* backgrounds */
-/*#selectors
-#attributes
-#manipulation
-#traversing
-#events
-#effects
-#ajax
-#core    */
