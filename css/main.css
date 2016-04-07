@@ -1,5 +1,8 @@
 /* navigation bar */
-.navbar { border-radius: 0; }
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
 .navbar-default { background-color: #1B1B1B; }
 
 /* title logo */
@@ -45,6 +48,7 @@ input:focus, textarea {
 }
 
 /* results */
+#result-container { margin-top: 50px; }
 #results {
   color: #000;
 }

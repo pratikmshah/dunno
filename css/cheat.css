@@ -1,30 +1,58 @@
-#cheatsheet
-#selectors,
-#attributes,
-#manipulation,
-#traversing,
-#events,
-#effects,
-#ajax,
-#core {
-  float: left;
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+#cheatsheet {
+  margin-top: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  display: flex;
+}
+
+#cheatsheet article { border: 1px solid black; }
+
+#cheatsheet article, section {
+  display: block;
+  padding: 5px;
+}
+
+#cheatsheet article > h5 {
+  padding-bottom: 3px;
+  padding-top: 5px;
+  margin-top: 0;
+  text-decoration: none;
+  color: white;
+  background-color: black;
 }
 
 #cheatsheet h5 {
   font-weight: 700;
+  color: black;
+  padding-left: 5px;
   margin-bottom: 0;
+  text-decoration: underline;
 }
 
 #cheatsheet ul {
-  padding: 5px;
+  margin-bottom: 0;
+  padding-left: 5px;
   list-style: none;
 }
 
 #cheatsheet ul li a {
   text-decoration: none;
+  color: black;
+  font-weight: 400;
 }
 
 #cheatsheet ul li a:hover {
   color: white;
   background-color: black;
 }
+
+/* backgrounds */
+/*#selectors
+#attributes
+#manipulation
+#traversing
+#events
+#effects
+#ajax
+#core    */
