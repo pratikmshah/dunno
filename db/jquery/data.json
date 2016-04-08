@@ -658,7 +658,8 @@
           ".andSelf() -dep1.8":{
                 "link":"https://api.jquery.com/andSelf/",
                 "tip":"Add the previous set of elements on the stack to the current set. -dep 1.8",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
           ".contents()":{
                 "link":"https://api.jquery.com/contents/",
@@ -778,7 +779,8 @@
           ".load() -dep1.8":{
                 "link":"https://api.jquery.com/load-event/",
                 "tip":"Bind an event handler to the \"load\" JavaScript event. -dep 1.8",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
           ".ready()":{
                 "link":"https://api.jquery.com/ready/",
@@ -787,7 +789,8 @@
           ".unload() -dep1.8":{
                 "link":"https://api.jquery.com/unload/",
                 "tip":"Bind an event handler to the \"unload\" JavaScript event. -dep 1.8",
-                "dep":true
+                "dep":true,
+                "rem":false
             }
         }
       },
@@ -1392,7 +1395,8 @@
             "jQuery.support -dep1.9":{
                 "link":"https://api.jquery.com/jQuery.support/",
                 "tip":"A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery's internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project's feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support. -dep1.9",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
             "jQuery.trim()":{
                 "link":"https://api.jquery.com/jQuery.trim/",
@@ -1425,7 +1429,8 @@
           ".size() -dep1.8":{
                 "link":"https://api.jquery.com/size/",
                 "tip":"Return the number of elements in the jQuery object. -dep1.8",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
           ".toArray()":{
                 "link":"https://api.jquery.com/toArray/",
@@ -1446,7 +1451,8 @@
             ".context -dep1.10":{
                 "link":"https://api.jquery.com/context/",
                 "tip":"The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document. -dep1.10",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
             "jQuery.error()":{
                 "link":"https://api.jquery.com/jQuery.error/",
@@ -1463,7 +1469,8 @@
             ".selector -dep1.7":{
                 "link":"https://api.jquery.com/selector/",
                 "tip":"A selector representing selector passed to jQuery(), if any, when creating the original set. -dep1.7",
-                "dep":true
+                "dep":true,
+                "rem":false
             }
         }
       },
@@ -1508,7 +1515,8 @@
             "deferred.pipe() -dep1.8":{
                 "link":"https://api.jquery.com/deferred.pipe/",
                 "tip":"Utility method to filter and/or chain Deferreds. -dep1.8",
-                "dep":true
+                "dep":true,
+                "rem":false
             },
             "deferred.progress()":{
                 "link":"https://api.jquery.com/deferred.progress/",
