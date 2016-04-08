@@ -16,7 +16,7 @@
     	"element":{
             "link":"https://api.jquery.com/element-selector/",
             "tip":"Selects all elements with the given tag name."
-        },  
+        },
     	"#id":{
             "link":"https://api.jquery.com/id-selector/",
             "tip":"Selects a single element with the given id attribute."
@@ -635,7 +635,8 @@
         },
     	".andSelf() -dep1.8":{
             "link":"https://api.jquery.com/andSelf/",
-            "tip":"Add the previous set of elements on the stack to the current set."
+            "tip":"Add the previous set of elements on the stack to the current set. -dep 1.8",
+            "dep":true
         },
     	".contents()":{
             "link":"https://api.jquery.com/contents/",
@@ -723,7 +724,8 @@
     "sub": {
     	".error() -dep1.8":{
             "link":"https://api.jquery.com/error/",
-            "tip":"Bind an event handler to the \"error\" JavaScript event."
+            "tip":"Bind an event handler to the \"error\" JavaScript event. -dep 1.8",
+            "dep":true
         },
     	".resize()":{
             "link":"https://api.jquery.com/resize/",
@@ -747,7 +749,8 @@
         },
     	".load() -dep1.8":{
             "link":"https://api.jquery.com/load-event/",
-            "tip":"Bind an event handler to the \"load\" JavaScript event."
+            "tip":"Bind an event handler to the \"load\" JavaScript event. -dep 1.8",
+            "dep":true
         },
     	".ready()":{
             "link":"https://api.jquery.com/ready/",
@@ -755,7 +758,8 @@
         },
     	".unload() -dep1.8":{
             "link":"https://api.jquery.com/unload/",
-            "tip":"Bind an event handler to the \"unload\" JavaScript event."
+            "tip":"Bind an event handler to the \"unload\" JavaScript event. -dep 1.8",
+            "dep":true
         }
     }
   },
@@ -775,11 +779,15 @@
         },
     	".die() -dep1.7 -rem1.9":{
             "link":"https://api.jquery.com/die/",
-            "tip":"Remove event handlers previously attached using .live() from the elements."
+            "tip":"Remove event handlers previously attached using .live() from the elements. -dep 1.7 -rem 1.9",
+            "dep":true,
+            "rem":true
         },
     	".live() -dep1.7 -rem1.9":{
             "link":"https://api.jquery.com/live/",
-            "tip":"Remove an event handler."
+            "tip":"Remove an event handler. -dep 1.7 -rem 1.9",
+            "dep":true,
+            "rem":true
         },
         ".off()":{
             "link":"https://api.jquery.com/off/",
@@ -915,7 +923,9 @@
         },
     	".toggle() -dep1.8 -rem1.9":{
             "link":"https://api.jquery.com/toggle-event/",
-            "tip":"Bind two or more handlers to the matched elements, to be executed on alternate clicks."
+            "tip":"Bind two or more handlers to the matched elements, to be executed on alternate clicks. -dep1.8 -rem1.9",
+            "dep":true,
+            "rem":true
         }
     }
   },
@@ -1223,7 +1233,9 @@
         },
     	"jQuery.sub() -dep1.7 -rem1.9":{
             "link":"https://api.jquery.com/jQuery.sub/",
-            "tip":"Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object."
+            "tip":"Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object. -dep1.7 -rem1.9",
+            "dep":true,
+            "rem":true
         },
     	"jQuery.when()":{
             "link":"https://api.jquery.com/jQuery.when/",
@@ -1239,11 +1251,15 @@
     "sub": {
     	"jQuery.boxModel -dep1.3 -rem1.8":{
             "link":"https://api.jquery.com/jQuery.boxModel/",
-            "tip":"States if the current page, in the user's browser, is being rendered using the W3C CSS Box Model. This property was removed in jQuery 1.8. Please try to use feature detection instead."
+            "tip":"States if the current page, in the user's browser, is being rendered using the W3C CSS Box Model. This property was removed in jQuery 1.8. Please try to use feature detection instead. -dep1.3 -rem1.8",
+            "dep":true,
+            "rem":true
         },
     	"jQuery.browser -dep1.3 -rem1.9":{
             "link":"https://api.jquery.com/jQuery.browser/",
-            "tip":"Contains flags for the useragent, read from navigator.userAgent. This property was removed in jQuery 1.9 and is available only through the jQuery.migrate plugin. Please try to use feature detection instead."
+            "tip":"Contains flags for the useragent, read from navigator.userAgent. This property was removed in jQuery 1.9 and is available only through the jQuery.migrate plugin. Please try to use feature detection instead. -dep1.3 -rem1.9",
+            "dep":true,
+            "rem":true
         },
     	"jQuery.contains()":{
             "link":"https://api.jquery.com/jQuery.contains/",
@@ -1335,7 +1351,8 @@
         },
         "jQuery.support -dep1.9":{
             "link":"https://api.jquery.com/jQuery.support/",
-            "tip":"A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery's internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project's feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support."
+            "tip":"A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery's internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project's feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support. -dep1.9",
+            "dep":true
         },
         "jQuery.trim()":{
             "link":"https://api.jquery.com/jQuery.trim/",
@@ -1367,7 +1384,8 @@
         },
     	".size() -dep1.8":{
             "link":"https://api.jquery.com/size/",
-            "tip":"Return the number of elements in the jQuery object."
+            "tip":"Return the number of elements in the jQuery object. -dep1.8",
+            "dep":true
         },
     	".toArray()":{
             "link":"https://api.jquery.com/toArray/",
@@ -1387,7 +1405,8 @@
         },
         ".context -dep1.10":{
             "link":"https://api.jquery.com/context/",
-            "tip":"The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document."
+            "tip":"The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document. -dep1.10",
+            "dep":true
         },
         "jQuery.error()":{
             "link":"https://api.jquery.com/jQuery.error/",
@@ -1403,7 +1422,8 @@
         },
         ".selector -dep1.7":{
             "link":"https://api.jquery.com/selector/",
-            "tip":"A selector representing selector passed to jQuery(), if any, when creating the original set."
+            "tip":"A selector representing selector passed to jQuery(), if any, when creating the original set. -dep1.7",
+            "dep":true
         }
     }
   },
@@ -1427,11 +1447,15 @@
         },
         "deferred.isRejected() -dep1.7 -rem1.8":{
             "link":"https://api.jquery.com/deferred.isRejected/",
-            "tip":"Determine whether a Deferred object has been rejected."
+            "tip":"Determine whether a Deferred object has been rejected. -dep1.7 -rem1.8",
+            "dep":true,
+            "rem":true
         },
         "deferred.isResolved() -dep1.7 -rem1.8":{
             "link":"https://api.jquery.com/deferred.isResolved/",
-            "tip":"Determine whether a Deferred object has been resolved."
+            "tip":"Determine whether a Deferred object has been resolved. -dep1.7 -rem1.8",
+            "dep":true,
+            "rem":true
         },
         "deferred.notify()":{
             "link":"https://api.jquery.com/deferred.notify/",
@@ -1443,7 +1467,8 @@
         },
         "deferred.pipe() -dep1.8":{
             "link":"https://api.jquery.com/deferred.pipe/",
-            "tip":"Utility method to filter and/or chain Deferreds."
+            "tip":"Utility method to filter and/or chain Deferreds. -dep1.8",
+            "dep":true
         },
         "deferred.progress()":{
             "link":"https://api.jquery.com/deferred.progress/",
