@@ -1,5 +1,5 @@
-<section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
-  <div ng-repeat="item in result">
+<section id="cheatsheet" ng-if="(selection == 'jquery' && cheat) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
+  <div ng-repeat="item in cheat">
 
     <article id="selectors" class="selectors" ng-if="item.category == 'Selectors'">
       <h5>{{ item.category }}</h5>
