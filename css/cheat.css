@@ -6,14 +6,10 @@
   display: flex;
 }
 
-#cheatsheet article { border: 1px solid black; }
+/*#cheatsheet article { border: 1px solid black; }*/
 
 #cheatsheet article > div {
   display: flex;
-}
-
-#cheatsheet article > div div {
-  display: block;
   margin-left: 10px;
   min-width: 100px;
 }

@@ -71,7 +71,7 @@
             },
           ":even":{
                 "link":"https://api.jquery.com/even-selector/",
-                "tip":""
+                "tip":"Selects even elements, zero-indexed, See also odd."
             },
           ":first":{
                 "link":"https://api.jquery.com/first-selector/",
@@ -87,11 +87,11 @@
             },
           ":lang()":{
                 "link":"https://api.jquery.com/lang-selector/",
-                "tip":""
+                "tip":"Selects all elements of a specified language"
             },
-          ":last()":{
+          ":last":{
                 "link":"https://api.jquery.com/last-selector/",
-                "tip":"Selects all elements of the specified language."
+                "tip":"Selects the last matched element."
             },
           ":lt()":{
                 "link":"https://api.jquery.com/lt-selector/",
