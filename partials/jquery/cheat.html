@@ -4,6 +4,7 @@
     <article id="{{ item.category | lowercase }}" class="{ item.category | lowercase }}">
       <h5>{{ item.category }}</h5>
       <div>
+        <div>
         <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
@@ -24,6 +25,7 @@
             </li>
           </ul>
         </section>
+      </div>
       </div>
     </article>
 
