@@ -1,0 +1,459 @@
+<section id="cheatsheet" ng-if="(selection == 'jquery' && result) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
+
+  <article id="selectors" class="selectors">
+    <h5>SELECTORS</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Basics</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Basics' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Basics -->
+
+        <section>
+          <h5>Hierarchy</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Hierarchy -->
+
+        <section>
+          <h5>Basic Filters</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Hierarchy' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Basic Filters -->
+
+        <section>
+          <h5>Content Filters</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Content Filters' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Content Filters -->
+      </div> <!-- Selectors col-1 -->
+
+      <div>
+        <section>
+          <h5>Visibility Filters</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Visibility Filters' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Visibility Filters -->
+
+        <section>
+          <h5>Attribute</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Attribute' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Attribute -->
+
+        <section>
+          <h5>Child Filters</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Child Filters' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value.link}}" target="_blank" title="{{value.tip}}">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Child Filters -->
+
+      </div> <!-- Selectors col-2 -->
+
+      <div>
+        <section>
+          <h5>Forms</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Forms' && item.category == 'Selectors' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Forms -->
+      </div><!-- Selectors col-3 -->
+    </div> <!-- Selectors section -->
+  </article>
+
+  <article id="attributes" class="attributes">
+    <h5>ATTRIBUTES / CSS</h5>
+    <div>
+      <div>
+
+        <section>
+          <h5>Attributes</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Attributes' && item.category == 'Attributes/CSS' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Attributes -->
+
+        <section>
+          <h5>CSS</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'CSS' && item.category == 'Attributes/CSS' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- CSS -->
+
+        <section>
+          <h5>Dimensions</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Dimensions' && item.category == 'Attributes/CSS' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Dimensions -->
+
+        <section>
+          <h5>Offset</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Offset' && item.category == 'Attributes/CSS' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Offset -->
+
+        <section>
+          <h5>Data</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Data' && item.category == 'Attributes/CSS' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Data -->
+
+      </div> <!-- attributes/css col-1 -->
+    </div> <!-- Attributes/CSS section -->
+  </article>
+
+  <article id="manipulation" class="manipulation clearfix">
+    <h5>MANIPULATION</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Copying</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Copying' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Copying -->
+
+        <section>
+          <h5>DOM Insertion, Around</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Around' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Around -->
+
+        <section>
+          <h5>DOM Insertion, Inside</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Inside' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Inside -->
+
+        <section>
+          <h5>DOM Insertion, Outside</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Insertion, Outside' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Insertion, Outside -->
+
+        <section>
+          <h5>DOM Removal</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Removal' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Removal -->
+
+        <section>
+          <h5>DOM Replacement</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Replacement' && item.category == 'Manipulation' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Replacement -->
+      </div> <!-- manipulation col-1 -->
+    </div> <!-- Manipulation section -->
+  </article>
+
+  <article id="traversing" class="traversing">
+    <h5>TRAVERSING</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Filtering</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Filtering' && item.category == 'Traversing' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Filtering -->
+
+        <section>
+          <h5>Miscellaneous Traversing</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Misc Traversing' && item.category == 'Traversing' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Miscellaneous Traversing -->
+
+        <section>
+          <h5>Tree Traversal</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Tree Traversal' && item.category == 'Traversing' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Tree Traversal -->
+      </div><!-- traversing col-1 -->
+    </div> <!-- Traversing section -->
+  </article>
+
+  <article id="events" class="events">
+    <h5>EVENTS</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Browser Events</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Browser Events' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Browser Events -->
+
+        <section>
+          <h5>Document Loading</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Document Loading' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Document Loading -->
+
+        <section>
+          <h5>Event Handler Attachment</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Event Handler Attachment' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Event Handler Attachment -->
+
+        <section>
+          <h5>Form Events</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Form Events' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Form Events -->
+
+        <section>
+          <h5>Keyboard Events</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Keyboard Events' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Keyboard Events -->
+      </div><!-- events col-1 -->
+
+      <div>
+        <section>
+          <h5>Mouse Events</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Mouse Events' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Mouse Events -->
+
+        <section>
+          <h5>Event Object</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Event Object' && item.category == 'Events' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Event Object -->
+      </div><!-- events col-2 -->
+    </div><!-- Events section -->
+  </article>
+
+  <article id="effects" class="effects clearfix">
+    <h5>EFFECTS</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Basics</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Basics' && item.category == 'Effects' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Basics -->
+
+        <section>
+          <h5>Custom</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Custom' && item.category == 'Effects' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Custom -->
+
+        <section>
+          <h5>Fading</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Fading' && item.category == 'Effects' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Fading -->
+
+        <section>
+          <h5>Sliding</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Sliding' && item.category == 'Effects' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Sliding -->
+      </div> <!-- effects col-1 -->
+    </div> <!-- Effects section -->
+  </article>
+
+  <article id="ajax" class="ajax">
+    <h5>AJAX</h5>
+    <div>
+      <div>
+        <section>
+          <h5>Global Ajax Event Handlers</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Global Ajax Event Handlers' && item.category == 'Ajax' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Global Ajax Event Handlers -->
+
+        <section>
+          <h5>Helper Functions</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Helper Functions' && item.category == 'Ajax' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Helper Functions -->
+
+        <section>
+          <h5>Low-Level Interface</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Low-Level Interface' && item.category == 'Ajax' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Low-Level Interface -->
+
+        <section>
+          <h5>Shorthand Methods</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Shorthand Methods' && item.category == 'Ajax' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Shorthand Methods -->
+      </div>
+    </div> <!-- ajax col-1 -->
+  </article> <!-- Ajax section -->
+
+  <article id="core" class="core">
+    <h5>CORE</h5>
+    <div>
+      <div>
+        <section>
+          <h5>jQuery Object</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'jQuery Object' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- jQuery Object -->
+
+        <section>
+          <h5>Utilities</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Utilities' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Utilities -->
+      </div> <!-- core col-1 -->
+
+      <div>
+        <section>
+          <h5>DOM Element Methods</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'DOM Element Methods' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- DOM Element Methods -->
+
+        <section>
+          <h5>Internals</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Internals' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Internals -->
+
+        <section>
+          <h5>Deferred Object</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Deferred Object' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Deferred Object -->
+      </div> <!-- core col-2 -->
+
+      <div>
+        <section>
+          <h5>Callbacks Object</h5>
+          <ul ng-repeat="item in result" ng-if="item.title == 'Callbacks Object' && item.category == 'Core' ">
+            <li ng-repeat="(key, value) in item.sub">
+              <a href="{{value}}" target="_blank">{{key}}</a>
+            </li>
+          </ul>
+        </section> <!-- Callbacks Object -->
+      </div> <!-- core col-3 -->
+    </div>
+  </article> <!-- Core section -->
+
+</section>

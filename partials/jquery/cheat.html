@@ -1,0 +1,31 @@
+<section id="cheatsheet" ng-show="(selection == 'jquery' && cheat) && (query == null || query == '')"> <!-- a selection must be picked and data must be retrieved with searchbox being null -->
+  <div ng-repeat="item in cheat">
+
+    <article id="{{ item.category | lowercase }}" class="{ item.category | lowercase }}">
+      <h5>{{ item.category }}</h5>
+      <div>
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
+          <h5>{{ topic.title }}</h5>
+          <ul>
+            <li ng-repeat="(key, value) in topic.sub">
+              <a href="{{value.link}}" target="_blank" title="{{ value.tip }}"
+                                                       data-toggle="tooltip" data-placement="top"
+                                                       ng-if="!value.dep && !value.rem">{{key}}</a>
+
+              <a href="{{value.link}}" target="_blank" title="{{ value.tip }}"
+                                                       data-toggle="tooltip" data-placement="top"
+                                                       ng-if="value.dep && !value.rem">
+                                                       <span class="text-muted">{{key}}</span></a>
+
+              <a href="{{value.link}}" target="_blank" title="{{ value.tip }}"
+                                                       data-toggle="tooltip" data-placement="top"
+                                                       ng-if="value.rem && value.dep">
+                                                       <s class="text-muted">{{key}}</s></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+  </div>
+</section>

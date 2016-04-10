@@ -1,0 +1,44 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h1 id="app-title" class="navbar-brand">
+        <span class="gblue">i</span>
+        <span class="gred">D</span>
+        <span class="gyell">u</span>
+        <span class="gblue">n</span>
+        <span class="ggreen">n</span>
+        <span class="gred">o</span>
+      </h1>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <div class="navbar-form form-inline text-center">
+        <div class="input-group">
+          <input id="search" type="text" class="form-control" ng-model="query" autofocus>
+          <span id="search-topic" class="input-group-addon">
+            <select id="selection" ng-change="select()" ng-model="selection" name="topic" class="selection">
+              <option value="angjs" title="CSS framework">AngJS</option>
+              <option value="boot3" title="CSS framework">Boot3</option>
+              <option value="cli" title="Command Line Interface">CLI</option>
+              <option value="css" title="Cascading Style Sheet">CSS</option>
+              <option value="git" title="Version control">Git</option>
+              <option value="html" title="Hyper Text Markup Language">HTML</option>
+              <option value="js" title="JavaScript">JS</option>
+              <option value="jquery" title="jQuery">jQuery</option>
+            </select>
+          </span>
+        </div>
+      </div>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

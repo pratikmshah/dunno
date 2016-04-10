@@ -13,13 +13,6 @@ mainControllers.controller('MainController', ['$scope', '$http', function($scope
       $scope.result = data;
     });
 
-    // method to retrieve jquery cheat sheet
-    if( optionVal === 'jquery') {
-      $http.get("db/" + optionVal + "/cheat.json").success(function(data) {
-        $scope.cheat = data;
-      });
-    }
-
   };
 
 }]);
