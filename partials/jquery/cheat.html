@@ -4,7 +4,7 @@
     <article id="selectors" class="selectors" ng-if="item.category == 'Selectors'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -20,7 +20,7 @@
     <article id="attributes" class="attributes" ng-if="item.category == 'Attribute/CSS'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase}}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -36,7 +36,7 @@
     <article id="manipulations" class="manipulations" ng-if="item.category == 'Manipulation'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -52,7 +52,7 @@
     <article id="traversing" class="traversing" ng-if="item.category == 'Traversing'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -68,7 +68,7 @@
     <article id="events" class="events" ng-if="item.category == 'Events'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -84,7 +84,7 @@
     <article id="effects" class="effects" ng-if="item.category == 'Effects'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -100,7 +100,7 @@
     <article id="ajax" class="ajax" ng-if="item.category == 'Ajax'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
@@ -116,7 +116,7 @@
     <article id="core" class="core" ng-if="item.category == 'Core'">
       <h5>{{ item.category }}</h5>
       <div>
-        <section id="{{ topic.title }}" ng-repeat="topic in item.topics">
+        <section id="{{ topic.title | lowercase }}" ng-repeat="topic in item.topics">
           <h5>{{ topic.title }}</h5>
           <ul>
             <li ng-repeat="(key, value) in topic.sub">
