@@ -57,7 +57,7 @@
       },
       {
         "category":"Selectors",
-        "title":"Basic Filters",
+        "title":"Basic-Filters",
         "url":"https://api.jquery.com/category/selectors/basic-filter-selectors/",
         "desc":":animated, :eq(), :even, :first, :gt(), :header, :lang(), :last(), :lt(), :not(), :odd, :root, :target",
         "sub": {
@@ -117,7 +117,7 @@
       },
       {
         "category":"Selectors",
-        "title":"Content Filters",
+        "title":"Content-Filters",
         "url":"https://api.jquery.com/category/selectors/content-filter-selector/",
         "desc":":contains(), :empty, :has(), :parent",
         "sub": {
@@ -141,7 +141,7 @@
       },
       {
         "category":"Selectors",
-        "title":"Visibility Filters",
+        "title":"Visibility-Filters",
         "url":"https://api.jquery.com/category/selectors/visibility-filter-selectors/",
         "desc":":hidden, :visible",
         "sub": {
@@ -197,7 +197,7 @@
       },
       {
         "category":"Selectors",
-        "title":"Child Filters",
+        "title":"Child-Filters",
         "url":"https://api.jquery.com/category/selectors/child-filter-selectors/",
         "desc":":first-child, :first-of-type, :last-child, :last-of-type, :nth-child(), :nth-last-child(), :nth-of-type(), :only-child, :only-of-type()",
         "sub": {
@@ -449,7 +449,7 @@
             },
           "jQuery.hasData()":{
                 "link":"https://api.jquery.com/jQuery.hasData/",
-                "tip":""
+                "tip":"Determine whether an element has any jQuery data associated with it."
             },
           "jQuery.removeData()":{
                 "link":"https://api.jquery.com/jQuery.removeData/",
@@ -481,7 +481,7 @@
       },
       {
         "category":"Manipulation",
-        "title":"DOM Insertion, Around",
+        "title":"DOM-Insertion-Around",
         "url":"https://api.jquery.com/category/manipulation/dom-insertion-around/",
         "desc":".wrap(), .wrapAll(), .wrapInner()",
         "sub": {
@@ -501,7 +501,7 @@
       },
        {
         "category":"Manipulation",
-        "title":"DOM Insertion, Inside",
+        "title":"DOM-Insertion-Inside",
         "url":"https://api.jquery.com/category/manipulation/dom-insertion-inside/",
         "desc":".append(), .appendTo(), .html(), .prepend(), .prependTo(), .text()",
         "sub": {
@@ -533,7 +533,7 @@
       },
       {
         "category":"Manipulation",
-        "title":"DOM Insertion, Outside",
+        "title":"DOM-Insertion-Outside",
         "url":"https://api.jquery.com/category/manipulation/dom-insertion-outside/",
         "desc":".after(), .before(), .insertAfter(), insertBefore()",
         "sub": {
@@ -557,7 +557,7 @@
       },
       {
         "category":"Manipulation",
-        "title":"DOM Removal",
+        "title":"DOM-Removal",
         "url":"https://api.jquery.com/category/manipulation/dom-removal/",
         "desc":".detach(), .empty(), .remove(), .unwrap()",
         "sub": {
@@ -581,7 +581,7 @@
       },
       {
         "category":"Manipulation",
-        "title":"DOM Replacement",
+        "title":"DOM-Replacement",
         "url":"https://api.jquery.com/category/manipulation/dom-replacement/",
         "desc":".replaceAll(), .replaceWith()",
         "sub": {
@@ -647,7 +647,7 @@
       },
       {
         "category":"Traversing",
-        "title":"Misc Traversing",
+        "title":"Misc-Traversing",
         "url":"https://api.jquery.com/category/traversing/miscellaneous-traversal/",
         "desc":".add(), .andSelf(), .contents(), .each(), .end()",
         "sub": {
@@ -677,7 +677,7 @@
       },
       {
         "category":"Traversing",
-        "title":"Tree Traversal",
+        "title":"Tree-Traversal",
         "url":"https://api.jquery.com/category/traversing/tree-traversal/",
         "desc":".addBack(), .children(), .closest(), .find(), .next(), .nextAll(), .nextUntil(), .parent(), .parents(), .parentsUntil(), .prev(), .prevAll(), .prevUntil(), .siblings()",
         "sub": {
@@ -747,7 +747,7 @@
     [
      {
         "category":"Events",
-        "title":"Browser Events",
+        "title":"Browser-Events",
         "url":"https://api.jquery.com/category/events/browser-events/",
         "desc":".error(), .resize(), .scroll()",
         "sub": {
@@ -768,7 +768,7 @@
       },
       {
         "category":"Events",
-        "title":"Document Loading",
+        "title":"Document-Loading",
         "url":"https://api.jquery.com/category/events/document-loading/",
         "desc":".holdReady(), .load(), .ready(), .unload()",
         "sub": {
@@ -796,7 +796,7 @@
       },
       {
         "category":"Events",
-        "title":"Event Handler Attachment",
+        "title":"Event-Handler-Attachment",
         "url":"https://api.jquery.com/category/events/event-handler-attachment/",
         "desc":".bind(), .delegate(), .die(), .live(), .off(), .on(), .one(), .trigger(), .triggerHandler(), .unbind(), .undelegate()",
         "sub": {
@@ -852,7 +852,7 @@
       },
       {
         "category":"Events",
-        "title":"Form Events",
+        "title":"Form-Events",
         "url":"https://api.jquery.com/category/forms/",
         "desc":".blur(), .change(), .focus(), .select(), .submit()",
         "sub": {
@@ -880,7 +880,7 @@
       },
       {
         "category":"Events",
-        "title":"Keyboard Events",
+        "title":"Keyboard-Events",
         "url":"https://api.jquery.com/category/events/keyboard-events/",
         "desc":".keydown(), .keypress(), .keyup()",
         "sub": {
@@ -900,7 +900,7 @@
       },
       {
         "category":"Events",
-        "title":"Mouse Events",
+        "title":"Mouse-Events",
         "url":"https://api.jquery.com/category/events/mouse-events/",
         "desc":".click(), .dblclick(), .focusin(), .focusout(), .hover(), .mousedown(), .mouseenter(), .mouseleave(), .mousemove(), .mouseout(), .mouseover(), .mouesup()",
         "sub": {
@@ -962,7 +962,7 @@
       },
       {
         "category":"Events",
-        "title":"Event Object",
+        "title":"Event-Object",
         "url":"https://api.jquery.com/category/events/event-object/",
         "desc":"event.currentTarget, event.data, event.isDefaultPrevented(), event.isImmediatePropagationStopped(), event.isPropagationStopped(), event.namespace, event.pageX, event.pageY, event.preventDefault(), event.relatedTarget, event.result, event.stopImmediatePropagation(), event.stopPropagation(), event.target, event.timeStamp, event.type, event.which",
         "sub": {
@@ -1035,7 +1035,13 @@
                 "tip":"For key or mouse events, this property indicates the specific key or button that was pressed."
             }
         }
-      },
+      }
+    ]
+  },
+  {
+    "category":"Effects",
+    "topics":
+    [
       {
         "category":"Effects",
         "title":"Basics-e",
@@ -1056,7 +1062,7 @@
             }
         }
       },
-       {
+      {
         "category":"Effects",
         "title":"Custom",
         "url":"https://api.jquery.com/category/effects/custom-effects/",
@@ -1160,7 +1166,7 @@
     [
      {
         "category":"Ajax",
-        "title":"Global Ajax Event Handlers",
+        "title":"Global-Ajax-Event-Handlers",
         "url":"https://api.jquery.com/category/ajax/global-ajax-event-handlers/",
         "desc":".ajaxComplete(), .ajaxError(), .ajaxSend(), .ajaxStart(), .ajaxStop(), .ajaxSuccess()",
         "sub": {
@@ -1192,7 +1198,7 @@
       },
       {
         "category":"Ajax",
-        "title":"Helper Functions",
+        "title":"Helper-Functions",
         "url":"https://api.jquery.com/category/ajax/helper-functions/",
         "desc":"jQuery.param(), .serialize(), .serializeArray()",
         "sub": {
@@ -1212,7 +1218,7 @@
       },
       {
         "category":"Ajax",
-        "title":"Low-Level Interface",
+        "title":"Low-Level-Interface",
         "url":"https://api.jquery.com/category/ajax/low-level-interface/",
         "desc":"jQuery.ajax(), jQuery.ajaxSetup()",
         "sub": {
@@ -1228,7 +1234,7 @@
       },
       {
         "category":"Ajax",
-        "title":"Shorthand Methods",
+        "title":"Shorthand-Methods",
         "url":"https://api.jquery.com/category/ajax/shorthand-methods/",
         "desc":"jQuery.get(), jQuery.getJSON(), jQuery.getScript(), .load(), jQuery.post()",
         "sub": {
@@ -1262,7 +1268,7 @@
     [
      {
         "category":"Core",
-        "title":"jQuery Object",
+        "title":"jQuery-Object",
         "url":"https://api.jquery.com/category/core/",
         "desc":"jQuery(), jQuery.noConflict(), jQuery.sub(), jQuery.when()",
         "sub": {
@@ -1290,7 +1296,7 @@
         "category":"Core",
         "title":"Utilities",
         "url":"https://api.jquery.com/category/utilities/",
-        "desc":"jQuery.boxModel, jQuery.browse, jQuery.contains(), jQuery.each(), jQuery.extend(), jQuery.globalEval(), jQuery.grep(), jQuery.inArray(), jQuery.isArray(), jQuery.isEmptyObject(), jQuery.isFunction(), jQuery.isNumeric(), jQuery.isPlainObject(), jQuery.isWindow(), jQuery.isXMLDoc(), jQuery.makeArray(), jQuery.map(), jQuery.merge(), jQuery.noop(), jQuery.now(), jQuery.parseHTML(), jQuery.parseJSON(), jQuery.parseXML(), jQuery.proxy(), jQuery.support, jQuery.trim(), jQuery.type(), jQuery.unique()",
+        "desc":"jQuery.boxModel, jQuery.browser, jQuery.contains(), jQuery.each(), jQuery.extend(), jQuery.globalEval(), jQuery.grep(), jQuery.inArray(), jQuery.isArray(), jQuery.isEmptyObject(), jQuery.isFunction(), jQuery.isNumeric(), jQuery.isPlainObject(), jQuery.isWindow(), jQuery.isXMLDoc(), jQuery.makeArray(), jQuery.map(), jQuery.merge(), jQuery.noop(), jQuery.now(), jQuery.parseHTML(), jQuery.parseJSON(), jQuery.parseXML(), jQuery.proxy(), jQuery.support, jQuery.trim(), jQuery.type(), jQuery.unique()",
         "sub": {
           "jQuery.boxModel -dep1.3 -rem1.8":{
                 "link":"https://api.jquery.com/jQuery.boxModel/",
@@ -1414,7 +1420,7 @@
       },
       {
         "category":"Core",
-        "title":"DOM Element Methods",
+        "title":"DOM-Element-Methods",
         "url":"https://api.jquery.com/category/miscellaneous/dom-element-methods/",
         "desc":".get(), .index(), .size(), .toArray()",
         "sub": {
@@ -1476,7 +1482,7 @@
       },
       {
         "category":"Core",
-        "title":"Deferred Object",
+        "title":"Deferred-Object",
         "url":"https://api.jquery.com/category/deferred-object/",
         "desc":"defered.always(), deferred.done(), deferred.fail(), deferred.isRejected(), deferred.isResolved(), deferred.notify(), deferred.notifyWith(), deferred.pipe(), deferred.progress(), deferred.promise(), deferred.reject(), deferred.rejectWith(), deferred.resolve(), deferred.resolveWith(), deferred.state(), deferred.then(), .promise()",
         "sub": {
@@ -1558,7 +1564,7 @@
       },
       {
         "category":"Core",
-        "title":"Callbacks Object",
+        "title":"Callbacks-Object",
         "url":"https://api.jquery.com/category/callbacks-object/",
         "desc":"jQuery.Callbacks(), callbacks.add(), callbacks.disable(), callbacks.empty(), callbacks.fire(), callbacks.fired(), callbacks.fireWith(), callbacks.has(), callbacks.lock(), callbacks.locked(), callbacks.remove()",
         "sub": {
